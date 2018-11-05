@@ -1,5 +1,23 @@
-# Object file
-*.o
+npm_modules
+node_modules
+trash
+Error.log
+.DS_Store
+.sass-cache
+.tmp
+.rvmrc
+.trashes
+*~
 
-# Ada Library Information
-*.ali
+# Optional things
+*.sublime-project
+*.sublime-workspace
+sftp-config.json
+
+.idea/.name
+
+*.xml
+
+*.iml
+/.settings/
+/.project
