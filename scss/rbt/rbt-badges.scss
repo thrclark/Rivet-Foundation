@@ -1,0 +1,39 @@
+/// Copyright 2018 Indiana University Research and Technology Corporation ///
+
+
+.badge {
+  font-size: 80% !important;
+  letter-spacing: .02rem!important;
+  line-height: 1.5!important;
+  -webkit-font-smoothing: antialiased;
+  text-decoration: none;
+  display: inline-block;
+  border: 2px solid;
+  &.badge-secondary {
+    border-color: $color-black--300;
+  }
+  &.badge-primary {
+    border-color: $blue;
+    &.rbt-badge-transparent {
+      color: $blue;
+    }
+  }
+  &.badge-success {
+    border-color: $green;
+    &.rbt-badge-transparent {
+      color: $green;
+    }
+  }
+  &.badge-warning {
+    border-color: $yellow;
+  }
+  &.badge-danger {
+    border-color: $red;
+    &.rbt-badge-transparent {
+      color: $red;
+    }
+  }
+  &.rbt-badge-transparent {
+    background: transparent;
+  }
+}

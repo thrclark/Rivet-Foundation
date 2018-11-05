@@ -1,0 +1,55 @@
+/// Copyright 2018 Indiana University Research and Technology Corporation ///
+$rbt-font-path:  "../fonts";
+
+//load Bootstrap variable overrides & custom variables
+@import "rbt/rbt-variables";
+
+//load mixins
+@import "rbt/rbt-mixins";
+
+
+//load Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+//load Rivet themed components
+@import "rbt/rbt-header";
+@import "rbt/rbt-dropdown";
+@import "rbt/rbt-userprofile";
+@import "rbt/rbt-buttons";
+@import "rbt/rbt-drawer";
+@import "rbt/rbt-tables";
+@import "rbt/rbt-tables-responsive";
+@import "rbt/rbt-typescale";
+@import "rbt/rbt-alerts";
+@import "rbt/rbt-forms";
+@import "rbt/rbt-footer";
+@import "rbt/rbt-modal";
+@import "rbt/rbt-lists";
+@import "rbt/rbt-pagination";
+@import "rbt/rbt-breadcrumbs";
+@import "rbt/rbt-badges";
+@import "rbt/rbt-panels";
+@import "rbt/rbt-closebutton";
+@import "rbt/rbt-fonts";
+@import "rbt/rbt-fileinput";
+@import "rbt/rbt-zindex";
+@import "rbt/rbt-focusstyling";
+//load additional Rivet-B components
+@import "rbt/rbt-extra-inputgroup";
+@import "rbt/rbt-extra-imageupload";
+@import "rbt/rbt-extra-clearfield";
+@import "rbt/rbt-extra-datepicker";
+@import "rbt/rbt-extra-sidebarnav";
+@import "rbt/rbt-extra-charcount";
+@import "rbt/rbt-tabs";
+@import "rbt/rbt-extra-growls";
+@import "rbt/rbt-extra-iconselector";
+@import "rbt/rbt-extra-expressionbuilder";
+@import "rbt/rbt-extra-dropdown-panel";
+@import "rbt/rbt-extra-richtexteditor";
+@import "rbt/rbt-extra-timeline";
+
+
+
+

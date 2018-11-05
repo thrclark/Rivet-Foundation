@@ -1,0 +1,32 @@
+/// Copyright 2018 Indiana University Research and Technology Corporation ///
+
+.clear-field {
+	position: relative;
+	.cleartext {
+		position: absolute;
+		top: 6px;
+		right: 7px;
+		font-size: 18px;
+		color: $color-black--400;
+		z-index: 10;
+		background: transparent;
+		border: none;
+	}
+}
+
+.input-group {
+	&.clear-field {
+		.cleartext {
+			position: relative;
+			top: inherit;
+			right: inherit;
+			background: $color-white;
+			border-bottom: solid 1px $input-border-color;
+			border-top: solid 1px $input-border-color;
+			padding-right: .75rem;
+			padding-left: .75rem;
+			margin-left: -1px;
+			padding-top: 4px;
+		}
+	}
+}

@@ -1,0 +1,1 @@
+<textarea id="richText1"></textarea>
