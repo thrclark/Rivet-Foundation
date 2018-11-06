@@ -14,26 +14,26 @@ $componentName = 'Panels';
 <?php include('includes/app-header.php') ?>
 <main>
     <div class="grid-container" id="mainContent">
-            <h1 class="mb-4"> <?php echo $componentName; ?></h1>
-            <p class="mb-4">The Rivet equvalent for this component is available <a href="https://rivet.uits.iu.edu/components/layout/panels/" target="_blank">here</a> for comparison.</p>
+            <h1 class="margin-bottom-3"> <?php echo $componentName; ?></h1>
+            <p class="margin-bottom-3">The Rivet equvalent for this component is available <a href="https://rivet.uits.iu.edu/components/layout/panels/" target="_blank">here</a> for comparison.</p>
             <h2>Panel - default</h2>
             <div class="demo-container">
-                <div class="demo-rendered p-4">
+                <div class="demo-rendered padding-3">
                     <?php include('snippets/panel-default.php') ?>
                 </div>
                 <div class="demo-code"> <small>HTML</small>
-                    <button class="btn btn-sm btn-primary" data-clipboard-target="#code1">Copy</button>
+                    <button class="button small primary" data-clipboard-target="#code1">Copy</button>
                     <pre data-src="snippets/panel-default.php" class="language-html" id="code1"></pre>
                 </div>
             </div>
             <h2>Panel - light  <span class="badge alert">Custom work needed</span>
 </h2>
             <div class="demo-container" style="background-color:#FAFAFA">
-                <div class="demo-rendered p-4">
+                <div class="demo-rendered padding-3">
                     <?php include('snippets/panel-light.php') ?>
                 </div>
                 <div class="demo-code"> <small>HTML</small>
-                    <button class="btn btn-sm btn-primary" data-clipboard-target="#code2">Copy</button>
+                    <button class="button small primary" data-clipboard-target="#code2">Copy</button>
                     <pre data-src="snippets/panel-light.php" class="language-html" id="code2"></pre>
                 </div>
             </div>

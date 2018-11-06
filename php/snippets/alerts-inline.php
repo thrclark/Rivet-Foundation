@@ -15,6 +15,6 @@
     <label class="form-check-label" for="stacked4"> Option four checked and disabled </label>
 </div>
 
-<div class="alert alert-danger p-1" role="alert" >	
+<div class="alert alert-danger padding-1" role="alert" >	
     <p class="rbt-ts-14" id="radio-list-message"> <span class="rbt-icon-circle-close" aria-hidden="true"></span> This field is required to continue.</p>
 </div>

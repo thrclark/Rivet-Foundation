@@ -1,4 +1,4 @@
-<ul class="list-unstyled rbt-sidebar-nav mt-5">
+<ul class="list-unstyled rbt-sidebar-nav margin-top-3">
     <li><span class="text-uppercase">Page content</span>
         <ul class="list-unstyled">
             <li <?php if ($componentName == 'Badges') { echo 'class="active"'; } ?>><a href="lib-badges.php">Badges</a></li>

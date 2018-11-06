@@ -26,7 +26,7 @@ $page_title = '';
 </head>
 <body>
 <section>
-    <div class="grid-container mt-5">
+    <div class="grid-container margin-top-3">
         <div class="rbt-icon-arrow-down"></div>
         <div class="rbt-icon-arrow-left"></div>
         <div class="rbt-icon-arrow-right"></div>
@@ -76,7 +76,7 @@ $page_title = '';
         <div class="rbt-icon-user"></div>
         <div class="rbt-icon-users"></div>
     </div>
-    <div class="grid-container mt-5">
+    <div class="grid-container margin-top-3">
         <ul class="font-awesome-icons" style="max-width: 100%;">
             <div class="grid-x" id="first-row">
                 <div class="grid-container">
@@ -266,7 +266,7 @@ $page_title = '';
                     <li class="cell medium-1 small-2 grid-icon"> <i class="fa fa-heart-o" data-unicode="f08a"></i> </li>
                     <li class="cell medium-1 small-2 grid-icon"> <i class="fa fa-sign-out" data-unicode="f08b"></i> </li>
                     <li class="cell medium-1 small-2 grid-icon"> <i class="fa fa-linkedin-square" data-unicode="f08c"></i> </li>
-                    <li class="cell medium-1 small-2 grid-icon"> <i class="fa fa-thumb-tack" data-unicode="f08d"></i> </li>
+                    <li class="cell medium-1 small-2 grid-icon"> <i class="fa fa-thumargin-bottom-tack" data-unicode="f08d"></i> </li>
                     <li class="cell medium-1 small-2 grid-icon"> <i class="fa fa-external-link" data-unicode="f08e"></i> </li>
                     <li class="cell medium-1 small-2 grid-icon"> <i class="fa fa-sign-in" data-unicode="f090"></i> </li>
                     <li class="cell medium-1 small-2 grid-icon"> <i class="fa fa-trophy" data-unicode="f091"></i> </li>

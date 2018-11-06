@@ -1,5 +1,5 @@
 
-<ul class="rbt-sidebar-nav mt-5">
+<ul class="rbt-sidebar-nav margin-top-3">
     <li><span class="text-uppercase">Rivet extensions</span>
         <ul class="list-unstyled">
             <li <?php if ($componentName == 'Responsive table') { echo 'class="active"'; } ?>><a href="lib-extra-responsivetable.php">Responsive table</a> </li>

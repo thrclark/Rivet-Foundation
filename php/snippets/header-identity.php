@@ -9,7 +9,7 @@
                 </div>
             </div>
             <div class="cell auto d-none d-lg-block">
-                <div class="rbt-header-avatar-id border-right pr-3 mr-3 py-1"> <span class="rbt-header-avatar" aria-hidden="true">RS</span> rswanson </div>
+                <div class="rbt-header-avatar-id border-right pr-3 margin-right-3 py-1"> <span class="rbt-header-avatar" aria-hidden="true">RS</span> rswanson </div>
                 <a href="#" class="pr-3 text-primary">Log out</a> </div>
         </div>
     </div>

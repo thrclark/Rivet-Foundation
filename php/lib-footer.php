@@ -14,15 +14,15 @@ $componentName = 'Footer';
 <?php include('includes/app-header.php') ?>
 <main>
     <div class="grid-container" id="mainContent">
-        <h1 class="mb-4"> <?php echo $componentName; ?> <span class="badge alert">Custom work needed</span>
+        <h1 class="margin-bottom-3"> <?php echo $componentName; ?> <span class="badge alert">Custom work needed</span>
 </h1>
-        <p class="mb-4">The Rivet equvalent for this component is available <a href="https://rivet.uits.iu.edu/components/navigation/footer/" target="_blank">here</a> for comparison.</p>
+        <p class="margin-bottom-3">The Rivet equvalent for this component is available <a href="https://rivet.uits.iu.edu/components/navigation/footer/" target="_blank">here</a> for comparison.</p>
         <div class="demo-container">
-            <div class="demo-rendered p-4">
+            <div class="demo-rendered padding-3">
                <a href="lib-footer-fp.php" target="_blank" class="btn btn-primary">View demo</a>
             </div>
             <div class="demo-code"> <small>HTML</small>
-                <button class="btn btn-sm btn-primary" data-clipboard-target="#code1">Copy</button>
+                <button class="button small primary" data-clipboard-target="#code1">Copy</button>
                 <pre data-src="snippets/footer.php" class="language-html" id="code1"></pre>
             </div>
         </div>

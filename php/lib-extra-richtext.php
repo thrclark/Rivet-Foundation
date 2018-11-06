@@ -15,18 +15,18 @@ $componentName = 'Rich text editor';
 <?php include('includes/app-header.php') ?>
 <main>
     <div class="grid-container" id="mainContent">
-        <h2 class="mb-4"> <?php echo $componentName; ?> </h2>
+        <h2 class="margin-bottom-3"> <?php echo $componentName; ?> </h2>
         <p> Based on the <a href="https://github.com/sparksuite/simplemde-markdown-editor" target="_blank">simplemde</a> rich text editor plugin. Relies on Font Awesome v4.7 icon fonts.</p>
         <div class="demo-container">
-            <div class="demo-rendered p-4">
+            <div class="demo-rendered padding-3">
                 <?php include('snippets/richtext.php') ?>
             </div>
             <div class="demo-code"> <small>HTML</small>
-                <button class="btn btn-sm btn-primary" data-clipboard-target="#code1">Copy</button>
+                <button class="button small primary" data-clipboard-target="#code1">Copy</button>
                 <pre data-src="snippets/richtext.php" class="language-html" id="code1"></pre>
             </div>
             <div class="demo-code"> <small>JS</small>
-                <button class="btn btn-sm btn-primary" data-clipboard-target="#code2">Copy</button>
+                <button class="button small primary" data-clipboard-target="#code2">Copy</button>
                 <pre data-src="snippets/richtext-js.php" class="language-html" id="code2"></pre>
             </div>
         </div>

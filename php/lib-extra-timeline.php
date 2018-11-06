@@ -14,13 +14,13 @@ $componentName = 'Timeline';
 <?php include('includes/app-header.php') ?>
 <main>
     <div class="grid-container" id="mainContent">
-            <h2 class="mb-4"> <?php echo $componentName; ?> </h2>
+            <h2 class="margin-bottom-3"> <?php echo $componentName; ?> </h2>
             <div class="demo-container">
-                <div class="demo-rendered p-4">
+                <div class="demo-rendered padding-3">
                     <?php include('snippets/timeline.php') ?>
                 </div>
                 <div class="demo-code"> <small>HTML</small>
-                    <button class="btn btn-sm btn-primary" data-clipboard-target="#code1">Copy</button>
+                    <button class="button small primary" data-clipboard-target="#code1">Copy</button>
                     <pre data-src="snippets/timeline.php" class="language-html" id="code1"></pre>
                 </div>
                

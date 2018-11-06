@@ -1,5 +1,5 @@
 
-<div class="rbt-button-group">
+<div class="button-group">
     <button class="btn btn-primary">Add item<span class="rbt-icon-plus"></span></button>
     <button class="btn btn-primary">Copy<span class="rbt-icon-copy"></span></button>
     <button class="btn btn-danger">Delete<span class="rbt-icon-circle-close"></span></button>

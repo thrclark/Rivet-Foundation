@@ -552,7 +552,7 @@
                                     <button class="btn btn-outline-primary" type="button"> <i class="fa fa-thermometer-half"></i> <span class="sr-only"> thermometer-half </span></button>
                                     <button class="btn btn-outline-primary" type="button"> <i class="fa fa-thermometer-quarter"></i> <span class="sr-only"> thermometer-quarter </span></button>
                                     <button class="btn btn-outline-primary" type="button"> <i class="fa fa-thermometer-three-quarters"></i> <span class="sr-only"> thermometer-three-quarters </span></button>
-                                    <button class="btn btn-outline-primary" type="button"> <i class="fa fa-thumb-tack"></i> <span class="sr-only"> thumb-tack </span></button>
+                                    <button class="btn btn-outline-primary" type="button"> <i class="fa fa-thumargin-bottom-tack"></i> <span class="sr-only"> thumargin-bottom-tack </span></button>
                                     <button class="btn btn-outline-primary" type="button"> <i class="fa fa-thumbs-down"></i> <span class="sr-only"> thumbs-down </span></button>
                                     <button class="btn btn-outline-primary" type="button"> <i class="fa fa-thumbs-o-down"></i> <span class="sr-only"> thumbs-o-down </span></button>
                                     <button class="btn btn-outline-primary" type="button"> <i class="fa fa-thumbs-o-up"></i> <span class="sr-only"> thumbs-o-up </span></button>

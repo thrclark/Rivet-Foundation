@@ -5294,7 +5294,7 @@ ol.list-upper-roman {
 .margin-right-3 {
   margin-right: 3rem !important; }
 
-.margin-bottom-3 {
+.margin-bottom-3, main .demo-container {
   margin-bottom: 3rem !important; }
 
 .margin-left-3 {
@@ -5337,7 +5337,8 @@ ol.list-upper-roman {
     height: 1.5rem;
     line-height: 1.1;
     vertical-align: bottom;
-    padding: 0rem .5rem; }
+    padding: 0rem .5rem;
+    font-size: 1rem; }
 
 .button-group .button {
   margin-right: 1rem; }
@@ -5426,6 +5427,23 @@ ol.list-upper-roman {
   src: url("https://fonts.iu.edu/fonts/benton-sans-cond-bold-italic.eot?#iefix") format("embedded-opentype"), url("https://fonts.iu.edu/fonts/benton-sans-cond-bold-italic.woff") format("woff"), url("https://fonts.iu.edu/fonts/benton-sans-cond-bold-italic.ttf") format("truetype"), url("https://fonts.iu.edu/fonts/benton-sans-cond-bold-italic.svg#BentonSansCondBoldItalic") format("svg");
   font-style: normal;
   font-weight: normal; }
+main {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+  main .demo-container {
+    border: solid 2px #dddddd; }
+    main .demo-container .demo-rendered {
+      border-bottom: solid 2px #dddddd; }
+    main .demo-container .demo-code {
+      background: #eeeeee;
+      padding: 10px;
+      padding-top: 5px;
+      position: relative; }
+      main .demo-container .demo-code .button {
+        position: absolute;
+        right: 31px;
+        top: 41px; }
+
 /* PrismJS 1.10.0
 http://prismjs.com/download.html?themes=prism-okaidia&languages=markup+css+clike+javascript */
 /**

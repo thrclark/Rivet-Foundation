@@ -13,7 +13,7 @@
                 </div>
             </div>
             <nav class="d-none d-lg-block">
-                <ul class="nav  mr-5">
+                <ul class="nav  margin-right-3">
                     <li class="nav-item dropdown menu-large">
                         <button class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Panel one</button>
                         <ul class="dropdown-menu rbt-navpanel">
@@ -21,7 +21,7 @@
                                 <li class="cell medium-3 dropdown-item d-flex align-items-stretch" >
                                     <div class="card">
                                         <div class="card-body">
-                                            <div class="input-group mb-3">
+                                            <div class="input-group margin-bottom-3">
                                                 <input type="text" class="form-control">
                                                 <div class="input-group-append">
                                                     <button class="btn btn-primary" type="button"><i aria-hidden="true" class="rbt-icon-magnifying-glass"></i></button>
@@ -134,12 +134,12 @@
 </header>
 <div class="rbt-drawer d-lg-none">
     <nav>
-        <ul class="list-group mt-3">
+        <ul class="list-group margin-top-3">
             <li class="list-group-item"><a href="#">Drawer nav</a> </li>
             <li class="list-group-item"><a href="#">Drawer nav</a> </li>
         </ul>
-        <h3 class="rbt-ts-14 text-uppercase mt-4 mb-2">Optional header</h3>
-        <ul class="list-group mt-3">
+        <h3 class="rbt-ts-14 text-uppercase margin-top-4 margin-bottom-2">Optional header</h3>
+        <ul class="list-group margin-top-3">
             <li class="list-group-item"><a href="#">Drawer nav</a> </li>
             <li class="list-group-item rbt-collapsable"><a href="#" class="collapsed"  data-toggle="collapse" data-target="#demo">Drawer nav</a>
                 <ul class="collapse" id="demo">

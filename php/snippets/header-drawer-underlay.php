@@ -24,7 +24,7 @@
 </header>
 <div class="rbt-drawer">
     <nav>
-        <ul class="list-group mt-3">
+        <ul class="list-group margin-top-3">
             <li class="list-group-item"><a href="#">Drawer only nav one</a> </li>
             <li class="list-group-item"><a href="#">Drawer only nav two</a> </li>
             <li class="list-group-item"><a href="#">Drawer only nav three</a> </li>

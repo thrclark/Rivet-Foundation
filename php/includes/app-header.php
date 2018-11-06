@@ -7,13 +7,13 @@
                     <div class="cell auto">
                         <div class="grid-x">
                             <div class="cell auto rbt-brand-image-container"> <img src="../img/trident-large.png" alt="trident" class="rbt-brand-image"> </div>
-                            <div class="cell -lg-auto rbt-brand-title-container"> <a href="#" class="rbt-brand-title"><strong>Rivet-Bootstrap</strong></a> </div>
+                            <div class="cell -lg-auto rbt-brand-title-container"> <a href="#" class="rbt-brand-title"><strong>Rivet-Foundation</strong></a> </div>
                         </div>
                     </div>
                 </div>
             </div>
             <nav class="d-none d-lg-block">
-                <ul class="nav  mr-5">
+                <ul class="nav  margin-right-3">
                     <li class="nav-item"> <a class="nav-link  <?php if ($componentName == 'About') { echo 'active'; } ?>" href="index.php">About</a> </li>
                     <li class="nav-item dropdown menu-large">
                         <button class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Library</button>
@@ -134,11 +134,11 @@
 </header>
 <div class="rbt-drawer d-lg-none" style="display:none">
     <nav>
-        <ul class="list-group mt-3">
+        <ul class="list-group margin-top-3">
             <li class="list-group-item"><a href="index.php">About</a> </li>
         </ul>
-        <h3 class="rbt-ts-14 text-uppercase mt-4 mb-2">Library</h3>
-        <ul class="list-group mt-3">
+        <h3 class="rbt-ts-14 text-uppercase margin-top-4 margin-bottom-2">Library</h3>
+        <ul class="list-group margin-top-3">
             <li class="list-group-item rbt-collapsable"><a href="#" class="collapsed"  data-toggle="collapse" data-target="#pageContent">Page content</a>
                 <ul class="collapse" id="pageContent">
                     <li class="list-group-item"><a href="lib-badges.php">Badges</a></li>
@@ -193,8 +193,8 @@
                 </ul>
             </li>
         </ul>
-        <h3 class="rbt-ts-14 text-uppercase mt-4 mb-2">Extras</h3>
-        <ul class="list-group mt-3">
+        <h3 class="rbt-ts-14 text-uppercase margin-top-4 margin-bottom-2">Extras</h3>
+        <ul class="list-group margin-top-3">
             <li class="list-group-item rbt-collapsable"> <a href="#" class="collapsed"  data-toggle="collapse" data-target="#rvbExtensions">Rivet extensions</a>
                 <ul class="collapse" id="rvbExtensions">
                     <li class="list-group-item"><a href="lib-extra-responsivetable.php">Responsive table</a> </li>
@@ -227,7 +227,7 @@
                 </ul>
             </li>
         </ul>
-        <ul class="list-group mt-3">
+        <ul class="list-group margin-top-3">
             <li class="list-group-item"><a href="https://github.com/thrclark/hackweek-2017.11" target="_blank">Download</a> </li>
         </ul>
     </nav>

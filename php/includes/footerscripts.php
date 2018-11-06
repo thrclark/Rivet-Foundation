@@ -23,7 +23,7 @@
     });
 </script>
 <script>
-    var clipboard = new ClipboardJS('.btn');
+    var clipboard = new ClipboardJS('.button');
     clipboard.on('success', function(e) {
         console.log(e);
     });
@@ -34,10 +34,10 @@
 <script>
     $(document).ready(function() {
         $(function() {
-            $(".demo-code .btn").click(function() {
+            $(".demo-code .button").click(function() {
                 $(this).text("Copied!");
                 setTimeout(function() {
-                    $(".demo-code .btn").text("Copy");
+                    $(".demo-code .button").text("Copy");
                 }, 4000)
             });
         });

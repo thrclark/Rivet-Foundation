@@ -1,5 +1,29 @@
 
 
+main {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  .demo-container {
+    border: solid 2px $color-black--200;
+    @extend .margin-bottom-3;
+    .demo-rendered {
+      //background: red;
+      border-bottom: solid 2px $color-black--200;
+    }
+    .demo-code {
+      background: $color-black--100;
+      padding: 10px;
+      padding-top: 5px;
+      position: relative;
+      .button {
+        position: absolute;
+        right: 31px;
+        top: 41px;
+      }
+
+    }
+  }
+}
 /* PrismJS 1.10.0
 http://prismjs.com/download.html?themes=prism-okaidia&languages=markup+css+clike+javascript */
 /**

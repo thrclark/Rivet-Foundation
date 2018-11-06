@@ -12,8 +12,8 @@
             </div>
         </div>
     </fieldset>
-    <fieldset class="mt-4">
-        <legend class="rbt-ts-20 mb-3"><strong>Some choices</strong></legend>
+    <fieldset class="margin-top-4">
+        <legend class="rbt-ts-20 margin-bottom-3"><strong>Some choices</strong></legend>
         <div class="grid-x">
             <div class="cell -6 rbt-has-error">
                 <div class="form-check form-check-inline">

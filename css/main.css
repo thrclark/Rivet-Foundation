@@ -5337,7 +5337,8 @@ ol.list-upper-roman {
     height: 1.5rem;
     line-height: 1.1;
     vertical-align: bottom;
-    padding: 0rem .5rem; }
+    padding: 0rem .5rem;
+    font-size: 1rem; }
 
 .button-group .button {
   margin-right: 1rem; }
