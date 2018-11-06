@@ -36,7 +36,7 @@ $componentName = 'Tables';
                 <pre data-src="snippets/table-striped.php" class="language-html" id="code2"></pre>
             </div>
         </div>
-        <h2>Plain table</h2>
+        <h2>Plain table <span class="badge alert">Custom work needed</span></h2>
         <div class="demo-container">
             <div class="demo-rendered p-4">
                 <?php include('snippets/table-plain.php') ?>
@@ -46,7 +46,7 @@ $componentName = 'Tables';
                 <pre data-src="snippets/table-plain.php" class="language-html" id="code3"></pre>
             </div>
         </div>
-        <h3> Compact table</h3>
+        <h3> Compact table <span class="badge alert">Custom work needed</span></h3>
         <div class="demo-container">
             <div class="demo-rendered p-4">
                 <?php include('snippets/table-compact.php') ?>
@@ -56,7 +56,7 @@ $componentName = 'Tables';
                 <pre data-src="snippets/table-compact.php" class="language-html" id="code4"></pre>
             </div>
         </div>
-        <h3>Cells table variant</h3>
+        <h3>Cells table variant <span class="badge alert">Custom work needed</span></h3>
         <div class="demo-container">
             <div class="demo-rendered p-4">
                 <?php include('snippets/table-grid.php') ?>

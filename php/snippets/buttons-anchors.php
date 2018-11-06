@@ -1,7 +1,6 @@
 <div class="rbt-button-group"> 
-    <a href="#" class="btn btn-primary">Primary</a> 
-    <a href="#" class="btn btn-success">Success</a> 
-    <a href="#" class="btn btn-danger">Danger</a> 
-    <a href="#" class="btn btn-primary disabled">Disabled</a> 
-    <a href="#" class="btn btn-link">Plain</a> 
+    <a class="button primary" href="#">Primary</a> 
+    <a class="button success" href="#">Success</a> 
+    <a class="button alert" href="#">Danger</a> 
+    <a class="button primary disabled" href="#">Disabled</a> 
 </div>

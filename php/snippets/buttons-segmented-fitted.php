@@ -1,5 +1,5 @@
-<div class="btn-group d-flex" role="group" aria-label="Basic example">
-    <button type="button" class="btn btn-outline-primary w-100">Left</button>
-    <button type="button" class="btn btn-outline-primary w-100">Middle</button>
-    <button type="button" class="btn btn-outline-primary w-100">Right</button>
+<div class="expanded button-group">
+  <button type="button" class="button hollow primary" >Primary one</button>
+  <button type="button" class="button hollow primary" >Primary two</button>
+ <button type="button" class="button hollow primary" >Primary three</button>
 </div>

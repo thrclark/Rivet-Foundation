@@ -1,5 +1,5 @@
  <a class="rbt-skip-link" href="#mainContent">Skip to content</a>
-<header class=" rbt-app-header rbt-app-header--light fixed-top">
+<header class=" rbt-app-header rbt-app-header--light fixed-top" style="display:none">
     <div class="container-fluid">
         <div class="row justify-content-between align-items-center">
             <div class="col-auto">
@@ -132,7 +132,7 @@
         </div>
     </div>
 </header>
-<div class="rbt-drawer d-lg-none">
+<div class="rbt-drawer d-lg-none" style="display:none">
     <nav>
         <ul class="list-group mt-3">
             <li class="list-group-item"><a href="index.php">About</a> </li>

@@ -7,8 +7,8 @@ $rbt-font-path:  "../fonts";
 //load mixins
 @import "rbt/rbt-mixins";
 
-//load Bootstrap
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
+//load Foundation
+@import "../node_modules/foundation-sites/assets/foundation";
 
 
 //load Rivet themed components

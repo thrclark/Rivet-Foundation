@@ -26,7 +26,7 @@ $componentName = 'Badges';
                     <pre data-src="snippets/badges-default.php" class="language-html" id="code1"></pre>
                 </div>
             </div>
-            <h2> Secondary badges </h2>
+            <h2> Secondary badges <span class="badge alert">Custom work needed</span></h2>
             <div class="demo-container">
                 <div class="demo-rendered p-4">
                     <?php include('snippets/badges-secondary.php') ?>

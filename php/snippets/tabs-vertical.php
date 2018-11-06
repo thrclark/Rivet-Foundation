@@ -1,48 +1,38 @@
-
-<div class="rbt-tabs-vertical">
-    <div class="row no-gutters">
-        <div class="col-sm-3">
-            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                <button class="nav-link active" id="v-pills-one-tab" data-toggle="pill" data-target="#v-pills-one" role="tab" aria-controls="v-pills-one" aria-selected="true" tabindex="0">Tab one</button>
-                <button class="nav-link" id="v-pills-two-tab" data-toggle="pill" data-target="#v-pills-two" role="tab" aria-controls="v-pills-two" aria-selected="false" tabindex="-1">Tab two</button>
-                <button class="nav-link" id="v-pills-three-tab" data-toggle="pill" data-target="#v-pills-three" role="tab" aria-controls="v-pills-three" aria-selected="false" tabindex="-1">Tab three</button>
-            </div>
+<div class="grid-container">
+    <div class="grid-x grid-margin-x">
+        <div class="cell medium-3">
+            <ul class="vertical tabs" data-tabs id="example-tabs">
+                <li class="tabs-title is-active"><a href="#panel1v" aria-selected="true">Tab 1</a></li>
+                <li class="tabs-title"><a href="#panel2v">Tab 2</a></li>
+                <li class="tabs-title"><a href="#panel3v">Tab 3</a></li>
+                <li class="tabs-title"><a href="#panel4v">Tab 4</a></li>
+                <li class="tabs-title"><a href="#panel5v">Tab 5</a></li>
+                <li class="tabs-title"><a href="#panel6v">Tab 6</a></li>
+            </ul>
         </div>
-        <div class="col-sm-9">
-            <div class="tab-content" id="v-pills-tabContent">
-                <div class="tab-pane fade show active" id="v-pills-one" role="tabpanel" aria-labelledby="v-pills-one-tab">
-                    <div class="rbt-ts-26 font-weight-bold">Paunch Burger</div>
-                    <p> Panel 1: Lorem ipsum dolor sit amet, <a href="#">consectetur adipisicing elit</a>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+        <div class="cell medium-9">
+            <div class="tabs-content" data-tabs-content="example-tabs">
+                <div class="tabs-panel is-active" id="panel1v">
+                    <p>One</p>
+                    <p>Check me out! I'm a super cool Tab panel with text content!</p>
                 </div>
-                <div class="tab-pane fade" id="v-pills-two" role="tabpanel" aria-labelledby="v-pills-two-tab">
-                    <div class="rbt-ts-26 font-weight-bold">JJ’s Diner</div>
-                    <p>Panel 2: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="tabs-panel" id="panel2v">
+                    <p>Two</p>
+                    <img class="thumbnail" src="assets/img/generic/rectangle-7.jpg"> </div>
+                <div class="tabs-panel" id="panel3v">
+                    <p>Three</p>
+                    <p>Check me out! I'm a super cool Tab panel with text content!</p>
                 </div>
-                <div class="tab-pane fade" id="v-pills-three" role="tabpanel" aria-labelledby="v-pills-three-tab">
-                    <form>
-                        <div class="form-group">
-                            <label for="form1">Name</label>
-                            <input type="text" class="form-control" id="form1" aria-describedby="" placeholder="">
-                        </div>
-                        <div class="form-group">
-                            <label for="textinput-full">Salad type</label>
-                            <select class="form-control" id="exampleFormControlSelect1">
-                                <option value="">Cobb</option>
-                                <option value="">Ceasar</option>
-                                <option value="">Wedge</option>
-                                <option value="">Big</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="textarea-full">Message</label>
-                            <textarea class="form-control" id="textarea-full" rows="5"></textarea>
-                        </div>
-                        <div class="rbt-button-group rbt-button-group-right">
-                            <button class="btn btn-primary">Submit</button>
-                            <button class="btn btn-link">Cancel</button>
-                        </div>
-                    </form>
+                <div class="tabs-panel" id="panel4v">
+                    <p>Four</p>
+                    <img class="thumbnail" src="assets/img/generic/rectangle-2.jpg"> </div>
+                <div class="tabs-panel" id="panel5v">
+                    <p>Five</p>
+                    <p>Check me out! I'm a super cool Tab panel with text content!</p>
                 </div>
+                <div class="tabs-panel" id="panel6v">
+                    <p>Six</p>
+                    <img class="thumbnail" src="assets/img/generic/rectangle-8.jpg"> </div>
             </div>
         </div>
     </div>

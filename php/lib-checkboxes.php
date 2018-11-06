@@ -26,7 +26,7 @@ $componentName = 'Checkboxes';
                 <pre data-src="snippets/checkbox-inline.php" class="language-html" id="code1"></pre>
             </div>
         </div>
-        <h2>Checkboxes - stacked</h2>
+        <h2>Checkboxes - stacked <span class="badge alert">Custom work needed</span></h2>
         <div class="demo-container">
             <div class="demo-rendered p-4">
                 <?php include('snippets/checkbox-stacked.php') ?>
@@ -36,7 +36,7 @@ $componentName = 'Checkboxes';
                 <pre data-src="snippets/checkbox-stacked.php" class="language-html" id="code2"></pre>
             </div>
         </div>
-        <h2>Checkboxes - indeterminate</h2>
+        <h2>Checkboxes - indeterminate <span class="badge alert">Custom work needed</span></h2>
         <div class="demo-container">
             <div class="demo-rendered p-4">
                 <?php include('snippets/checkbox-indeterminate.php') ?>
@@ -55,7 +55,7 @@ $componentName = 'Checkboxes';
         
         
         
-         <h2>Checkboxes - alternate markup</h2>
+         <h2>Checkboxes - alternate markup <span class="badge alert">Custom work needed</span></h2>
         <div class="demo-container">
             <div class="demo-rendered p-4">
                 <?php include('snippets/checkbox-alternate.php') ?>

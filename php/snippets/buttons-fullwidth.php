@@ -1,2 +1,2 @@
-<button type="button" class="btn btn-primary btn-block">Full width button</button>
-<button type="button" class="btn btn-outline-primary btn-block">Full width button</button>
+<button type="button" class="button expanded primary" >Primary</button>
+<button class="hollow expanded button" href="#">Primary</button>

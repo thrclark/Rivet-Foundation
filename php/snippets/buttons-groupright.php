@@ -1,4 +1,6 @@
+
+
 <div class="rbt-button-group rbt-button-group-right">
-    <button class="btn btn-primary">OK</button>
-    <button class="btn btn-outline-primary">Cancel</button>
+    <button type="button" class="button primary" >Ok</button>
+    <button class="hollow button" href="#">Cancel</button>
 </div>

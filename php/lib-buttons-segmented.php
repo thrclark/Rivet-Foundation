@@ -46,13 +46,8 @@ $componentName = 'Segmented buttons';
                 <pre data-src="snippets/buttons-segmented-fitted.php" class="language-html" id="code3"></pre>
             </div>
         </div>
-        
-        
-        <h2>
-        Using segmented buttons with dropdowns
-        
-        </h2>
-          <div class="demo-container">
+        <h2> Using segmented buttons with dropdowns <span class="badge alert">Custom work needed</span> </h2>
+        <div class="demo-container">
             <div class="demo-rendered p-4">
                 <?php include('snippets/buttons-segmented-split.php') ?>
             </div>
@@ -61,7 +56,6 @@ $componentName = 'Segmented buttons';
                 <pre data-src="snippets/buttons-segmented-split.php" class="language-html" id="code4"></pre>
             </div>
         </div>
-        
     </div>
 </main>
 <?php include('includes/footer.php') ?>

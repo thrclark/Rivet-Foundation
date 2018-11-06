@@ -56,7 +56,7 @@ $componentName = 'Buttons';
                 <pre data-src="snippets/buttons-fullwidth.php" class="language-html" id="code8"></pre>
             </div>
         </div>
-        <h2>Using icons inside buttons</h2>
+        <h2>Using icons inside buttons <span class="badge alert">Custom work needed</span></h2>
         <div class="demo-container">
             <div class="demo-rendered p-4">
                 <?php include('snippets/buttons-icons.php') ?>
@@ -66,7 +66,7 @@ $componentName = 'Buttons';
                 <pre data-src="snippets/buttons-icons.php" class="language-html" id="code7"></pre>
             </div>
         </div>
-        <h2>Button groups</h2>
+        <h2>Button groups <span class="badge alert">Custom work needed</span></h2>
         <div class="demo-container">
             <div class="demo-rendered p-4">
                 <?php include('snippets/buttons-group.php') ?>
@@ -76,7 +76,7 @@ $componentName = 'Buttons';
                 <pre data-src="snippets/buttons-group.php" class="language-html" id="code4"></pre>
             </div>
         </div>
-        <h2>Button groups - right</h2>
+        <h2>Button groups - right <span class="badge alert">Custom work needed</span></h2>
         <div class="demo-container">
             <div class="demo-rendered p-4">
                 <?php include('snippets/buttons-groupright.php') ?>

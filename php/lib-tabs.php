@@ -29,7 +29,7 @@ $componentName = 'Tabs';
                 <pre data-src="snippets/tabs-default-js.php" class="language-js" id="code4"></pre>
             </div>
         </div>
-        <h3>Tabs - fitted</h3>
+        <h3>Tabs - fitted <span class="badge alert">Custom work needed</span></h3>
         <div class="demo-container">
             <div class="demo-rendered p-4">
                 <?php include('snippets/tabs-fitted.php') ?>
