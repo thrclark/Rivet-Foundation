@@ -26,7 +26,8 @@ $componentName = 'Panels';
                     <pre data-src="snippets/panel-default.php" class="language-html" id="code1"></pre>
                 </div>
             </div>
-            <h2>Panel - light</h2>
+            <h2>Panel - light  <span class="badge alert">Custom work needed</span>
+</h2>
             <div class="demo-container" style="background-color:#FAFAFA">
                 <div class="demo-rendered p-4">
                     <?php include('snippets/panel-light.php') ?>

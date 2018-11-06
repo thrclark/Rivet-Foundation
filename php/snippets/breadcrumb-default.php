@@ -1,7 +1,10 @@
-<nav aria-label="breadcrumb" role="navigation">
-    <ol class="breadcrumb rbt-breadcrumb-no-bkg">
-        <li class="breadcrumb-item"><a href="#">Home</a></li>
-        <li class="breadcrumb-item"><a href="#">Files</a></li>
-        <li class="breadcrumb-item active" aria-current="page">my-file.txt</li>
-    </ol>
+<nav aria-label="You are here:" role="navigation">
+  <ul class="breadcrumbs">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Features</a></li>
+    <li class="disabled">Gene Splicing</li>
+    <li>
+      <span class="show-for-sr">Current: </span> Cloning
+    </li>
+  </ul>
 </nav>

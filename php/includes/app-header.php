@@ -1,5 +1,5 @@
  <a class="rbt-skip-link" href="#mainContent">Skip to content</a>
-<header class=" rbt-app-header rbt-app-header--light fixed-top" style="display:none">
+<header class=" rbt-app-header rbt-app-header--light fixed-top" style="display:nonne">
     <div class="container-fluid">
         <div class="row justify-content-between align-items-center">
             <div class="col-auto">
@@ -77,7 +77,7 @@
                             </div>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown menu-large">
+                    <li class="nav-item dropdown menu-large" style="display:none">
                         <button class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Extras</button>
                         <ul class="dropdown-menu rbt-navpanel">
                             <div class="row d-flex align-items-stretch">

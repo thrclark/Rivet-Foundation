@@ -1,19 +1,25 @@
+<button class="button" type="button" data-toggle="example-dropdown">Toggle Dropdown</button>
+<div class="dropdown-pane" id="example-dropdown" data-dropdown data-auto-focus="true">
+  Example form in a dropdown.
+  <form>
+    <div class="grid-container">
+      <div class="grid-x grid-margin-x">
+        <div class="cell medium-6">
+          <label>Name
+            <input type="text" placeholder="Kirk, James T.">
+          </label>
+        </div>
+        <div class="cell medium-6">
+          <label>Rank
+            <input type="text" placeholder="Captain">
+          </label>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
 
-<div class="row">
-    <div class="col-auto">
-        <div class="dropdown">
-            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Navigation menu </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" aria-hidden="true" role="menu"> <a class="dropdown-item" href="#">Item one</a> <a class="dropdown-item" href="#">Item two</a> <a class="dropdown-item active" href="#">Item three</a> <a class="dropdown-item" href="#">Item four</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Related item three </a> <a class="dropdown-item" href="#">Related item four</a> </div>
-        </div>
-    </div>
-    <div class="col-auto">
-        <div class="dropdown">
-            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="sr-only">Navigation menu</span> </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" aria-hidden="true" role="menu"> <a class="dropdown-item" href="#">Item one</a> <a class="dropdown-item" href="#">Item two</a> <a class="dropdown-item active" href="#">Item three</a> <a class="dropdown-item" href="#">Item four</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Related item three </a> <a class="dropdown-item" href="#">Related item four</a> </div>
-        </div>
-    </div>
+<button class="button" type="button" data-toggle="example-dropdown-1">Hoverable Dropdown</button>
+<div class="dropdown-pane" id="example-dropdown-1" data-dropdown data-hover="true" data-hover-pane="true">
+  Just some junk that needs to be said. Or not. Your choice.
 </div>

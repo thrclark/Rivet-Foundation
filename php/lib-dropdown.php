@@ -38,17 +38,7 @@ $componentName = 'Dropdown';
         </div>
         
         
-        
- <h2>Dropdown - application menu</h2>
-        <div class="demo-container">
-            <div class="demo-rendered p-4">
-                <?php include('snippets/dropdown-appmenu.php') ?>
-            </div>
-            <div class="demo-code"> <small>HTML</small>
-                <button class="btn btn-sm btn-primary" data-clipboard-target="#code3">Copy</button>
-                <pre data-src="snippets/dropdown-appmenu.php" class="language-html" id="code3"></pre>
-            </div>
-        </div>
+    
         
     </div>
 </main>

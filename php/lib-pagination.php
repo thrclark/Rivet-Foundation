@@ -26,7 +26,7 @@ $componentName = 'Pagination';
                     <pre data-src="snippets/pagination-default.php" class="language-html" id="code1"></pre>
                 </div>
             </div>
-            <h2>Pagination positioning</h2>
+            <h2>Pagination centered</h2>
             <div class="demo-container">
                 <div class="demo-rendered p-4">
                     <?php include('snippets/pagination-positioning.php') ?>
@@ -36,7 +36,8 @@ $componentName = 'Pagination';
                     <pre data-src="snippets/pagination-positioning.php" class="language-html" id="code2"></pre>
                 </div>
             </div>
-            <h2>Pagination sizing</h2>
+            <h2>Pagination sizing <span class="badge alert">Custom work needed</span>
+</h2>
             <div class="demo-container">
                 <div class="demo-rendered p-4">
                     <?php include('snippets/pagination-sizing.php') ?>

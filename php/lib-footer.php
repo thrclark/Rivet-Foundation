@@ -14,7 +14,8 @@ $componentName = 'Footer';
 <?php include('includes/app-header.php') ?>
 <main>
     <div class="container" id="mainContent">
-        <h1 class="mb-4"> <?php echo $componentName; ?></h1>
+        <h1 class="mb-4"> <?php echo $componentName; ?> <span class="badge alert">Custom work needed</span>
+</h1>
         <p class="mb-4">The Rivet equvalent for this component is available <a href="https://rivet.uits.iu.edu/components/navigation/footer/" target="_blank">here</a> for comparison.</p>
         <div class="demo-container">
             <div class="demo-rendered p-4">

@@ -26,7 +26,8 @@ $componentName = 'Breadcrumbs';
                     <pre data-src="snippets/breadcrumb-default.php" class="language-html" id="code1"></pre>
                 </div>
             </div>
-            <h2>Breadcrumbs - callout</h2>
+            <h2>Breadcrumbs - callout <span class="badge alert">Custom work needed</span>
+</h2>
             <div class="demo-container">
                 <div class="demo-rendered p-4">
                     <?php include('snippets/breadcrumb-background.php') ?>

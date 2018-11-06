@@ -46,7 +46,8 @@ $componentName = 'Alerts';
                 <pre data-src="snippets/alerts-standalone.php" class="language-html" id="code3"></pre>
             </div>
         </div>
-        <h2>Alerts - inline</h2>
+        <h2>Alerts - inline <span class="badge alert shadow">Custom work needed</span>
+</h2>
         <div class="demo-container">
             <div class="demo-rendered p-4">
                 <?php include('snippets/alerts-inline.php') ?>
