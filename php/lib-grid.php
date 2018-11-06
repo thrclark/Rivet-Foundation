@@ -13,7 +13,7 @@ $componentName = 'Grid';
 <body>
 <?php include('includes/app-header.php') ?>
 <main>
-    <div class="container" id="mainContent">
+    <div class="grid-container" id="mainContent">
             <h1 class="mb-4"> <?php echo $componentName; ?></h1>
             <p class="mb-4">The Rivet equvalent for this component is available <a href="https://rivet.uits.iu.edu/components/layout/grid/" target="_blank">here</a> for comparison.</p>
             <p>Rivet-Bootstrap fully utilizes the Bootstrap grid utilities without any modifications. For full documentation and code examples, please refer to the <a href="https://getbootstrap.com/docs/4.0/layout/grid/" target="_blank">Bootstrap grid documentation</a>.</p>

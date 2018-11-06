@@ -1,6 +1,6 @@
 
-<div class="row">
-    <div class="col-md-6">
+<div class="grid-x">
+    <div class="cell medium-6">
         <div class="form-group form-group-error-main">
             <label class="control-label" id="titleLabel">
                 <message key="global.ad.field.title">Title</message>
@@ -14,7 +14,7 @@
             </countdown>
         </div>
     </div>
-    <div class="col-md-6">
+    <div class="cell medium-6">
         <div class="form-group">
             <label class="control-label" id="descriptionLabel">
                 <message key="global.ad.field.description">Description</message>

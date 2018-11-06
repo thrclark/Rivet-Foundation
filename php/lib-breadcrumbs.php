@@ -13,7 +13,7 @@ $componentName = 'Breadcrumbs';
 <body>
 <?php include('includes/app-header.php') ?>
 <main>
-    <div class="container" id="mainContent">
+    <div class="grid-container" id="mainContent">
             <h1 class="mb-4"> <?php echo $componentName; ?></h1>
             <p class="mb-4">The Rivet equvalent for this component is available <a href="https://rivet.uits.iu.edu/components/navigation/breadcrumb/" target="_blank">here</a> for comparison.</p>
             <h2>Breadcrumbs - no background</h2>

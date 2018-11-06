@@ -1,6 +1,6 @@
 
-<div class="row">
-    <div class="col-3">
+<div class="grid-x">
+    <div class="cell -3">
         <nav>
             <ul class="rbt-sidebar-nav">
                 <li><a href="#">Navigation 1</a></li>

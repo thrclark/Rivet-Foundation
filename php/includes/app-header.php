@@ -1,25 +1,25 @@
  <a class="rbt-skip-link" href="#mainContent">Skip to content</a>
 <header class=" rbt-app-header rbt-app-header--light fixed-top" style="display:nonne">
-    <div class="container-fluid">
-        <div class="row justify-content-between align-items-center">
-            <div class="col-auto">
-                <div class="row">
-                    <div class="col-auto">
-                        <div class="row align-items-center">
-                            <div class="col-auto rbt-brand-image-container"> <img src="../img/trident-large.png" alt="trident" class="rbt-brand-image"> </div>
-                            <div class="col col-lg-auto rbt-brand-title-container"> <a href="#" class="rbt-brand-title"><strong>Rivet-Bootstrap</strong></a> </div>
+    <div class="grid-container fluid">
+        <div class="grid-x">
+            <div class="cell auto">
+                <div class="grid-x">
+                    <div class="cell auto">
+                        <div class="grid-x">
+                            <div class="cell auto rbt-brand-image-container"> <img src="../img/trident-large.png" alt="trident" class="rbt-brand-image"> </div>
+                            <div class="cell -lg-auto rbt-brand-title-container"> <a href="#" class="rbt-brand-title"><strong>Rivet-Bootstrap</strong></a> </div>
                         </div>
                     </div>
                 </div>
             </div>
             <nav class="d-none d-lg-block">
-                <ul class="nav align-items-center mr-5">
+                <ul class="nav  mr-5">
                     <li class="nav-item"> <a class="nav-link  <?php if ($componentName == 'About') { echo 'active'; } ?>" href="index.php">About</a> </li>
                     <li class="nav-item dropdown menu-large">
                         <button class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Library</button>
                         <ul class="dropdown-menu rbt-navpanel">
-                            <div class="row d-flex align-items-stretch">
-                                <li class="col-md-3 dropdown-item">
+                            <div class="grid-x d-flex align-items-stretch">
+                                <li class="cell medium-3 dropdown-item">
                                     <h3 class="dropdown-header" >Page content</h3>
                                     <ul>
                                         <li <?php if ($componentName == 'Badges') { echo 'class="active"'; } ?>><a href="lib-badges.php">Badges</a></li>
@@ -29,7 +29,7 @@
                                         <li <?php if ($componentName == 'Tabs') { echo 'class="active"'; } ?>><a href="lib-tabs.php">Tabs</a> </li>
                                     </ul>
                                 </li>
-                                <li class="col-md-3 dropdown-item">
+                                <li class="cell medium-3 dropdown-item">
                                     <h3 class="dropdown-header" >Forms</h3>
                                     <ul>
                                         <li <?php if ($componentName == 'Buttons') { echo 'class="active"'; } ?>><a href="lib-buttons.php">Buttons</a></li>
@@ -42,7 +42,7 @@
                                         <li <?php if ($componentName == 'Text inputs') { echo 'class="active"'; } ?>><a href="lib-textinputs.php">Text inputs</a></li>
                                     </ul>
                                 </li>
-                                <li class="col-md-3 dropdown-item">
+                                <li class="cell medium-3 dropdown-item">
                                     <h3 class="dropdown-header" >Layout</h3>
                                     <ul>
                                         <li <?php if ($componentName == 'Grid') { echo 'class="active"'; } ?>><a href="lib-grid.php">Grid</a></li>
@@ -59,7 +59,7 @@
                                         <li <?php if ($componentName == 'Pagination') { echo 'class="active"'; } ?>><a href="lib-pagination.php">Pagination</a></li>
                                     </ul>
                                 </li>
-                                <li class="col-md-3 dropdown-item">
+                                <li class="cell medium-3 dropdown-item">
                                     <h3 class="dropdown-header" >Overlays</h3>
                                     <ul>
                                         <li <?php if ($componentName == 'Alerts') { echo 'class="active"'; } ?>><a href="lib-alerts.php">Alerts</a></li>
@@ -80,8 +80,8 @@
                     <li class="nav-item dropdown menu-large" style="display:none">
                         <button class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Extras</button>
                         <ul class="dropdown-menu rbt-navpanel">
-                            <div class="row d-flex align-items-stretch">
-                                <li class="col-md-4 dropdown-item d-flex align-items-stretch">
+                            <div class="grid-x d-flex align-items-stretch">
+                                <li class="cell medium-4 dropdown-item d-flex align-items-stretch">
                                     <div class="card">
                                         <div class="card-body">
                                             <div class="rbt-ts-26"> <span class="badge badge-secondary rbt-badge-transparent">Extras</span> </div>
@@ -89,7 +89,7 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li class="col-sm-4 dropdown-item">
+                                <li class="cell -sm-4 dropdown-item">
                                     <h3 class="dropdown-header" >Rivet extensions</h3>
                                     <ul>
                                         <li <?php if ($componentName == 'Responsive table') { echo 'class="active"'; } ?>><a href="lib-extra-responsivetable.php">Responsive table</a> </li>
@@ -103,7 +103,7 @@
                                         <li <?php if ($componentName == 'Menu panel') { echo 'class="active"'; } ?>><a href="lib-extra-menupanel.php">Menu panel</a> </li>
                                     </ul>
                                 </li>
-                                <li class="col-sm-4 dropdown-item">
+                                <li class="cell -sm-4 dropdown-item">
                                     <h3 class="dropdown-header" >Widgets</h3>
                                     <ul>
                                         <li <?php if ($componentName == 'Image uploader') { echo 'class="active"'; } ?>><a href="lib-extra-imageupload.php">Image uploader</a> </li>
@@ -126,7 +126,7 @@
                     <li class="nav-item"> <a class="nav-link " href="https://github.com/thrclark/hackweek-2017.11" target="_blank">Download</a> </li>
                 </ul>
             </nav>
-            <div class="col-auto d-lg-none rbt-drawer-button">
+            <div class="cell auto d-lg-none rbt-drawer-button">
                 <button class="btn btn-link"><span class="sr-only">Menu</span><span class="rbt-icon-menu" aria-hidden="true"></span> </button>
             </div>
         </div>

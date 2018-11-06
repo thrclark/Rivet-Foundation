@@ -19,9 +19,9 @@ $page_title = '';
 <br>
 <br>
 <br>
-<div class="container">
-    <div class="row">
-        <div class="col-12"><br>
+<div class="grid-container">
+    <div class="grid-x">
+        <div class="cell -12"><br>
             <br>
             <br>
             <br>

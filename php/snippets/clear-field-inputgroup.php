@@ -1,5 +1,5 @@
-<div class="row">
-    <div class="col-4">
+<div class="grid-x">
+    <div class="cell -4">
         <div class="input-group clear-field">
             <input type="text" class="form-control" id="clear_field2">
             <button class="cleartext" id="cleartext2" style="display:none"> <i class="rbt-icon-circle-close"></i></button>

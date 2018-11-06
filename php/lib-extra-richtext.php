@@ -14,7 +14,7 @@ $componentName = 'Rich text editor';
 <body>
 <?php include('includes/app-header.php') ?>
 <main>
-    <div class="container" id="mainContent">
+    <div class="grid-container" id="mainContent">
         <h2 class="mb-4"> <?php echo $componentName; ?> </h2>
         <p> Based on the <a href="https://github.com/sparksuite/simplemde-markdown-editor" target="_blank">simplemde</a> rich text editor plugin. Relies on Font Awesome v4.7 icon fonts.</p>
         <div class="demo-container">

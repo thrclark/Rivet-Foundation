@@ -1,5 +1,6 @@
-
-<button type="button" class="button small primary" >Primary</button>
-<button type="button" class="button small success" >Success</button>
-<button type="button" class="button small alert" >Danger</button>
-<button type="button" class="button small primary"  disabled>Disabled</button>
+<div class="button-group">
+    <button type="button" class="button small primary" >Primary</button>
+    <button type="button" class="button small success" >Success</button>
+    <button type="button" class="button small alert" >Danger</button>
+    <button type="button" class="button small primary"  disabled>Disabled</button>
+</div>

@@ -27,10 +27,10 @@ $page_title = '';
 <br>
 <br>
 <br>
-<div class="container">
+<div class="grid-container">
     <h1>Bootstrap 4 Grid</h1>
-    <div class="row">
-        <div class=" col-lg-2">
+    <div class="grid-x">
+        <div class=" cell -lg-2">
             <div class="mystuff">hello!</div>
         </div>
         <div class="col">

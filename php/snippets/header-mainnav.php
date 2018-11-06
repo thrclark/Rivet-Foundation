@@ -1,11 +1,11 @@
 <a class="rbt-skip-link" href="#main-content" tabindex="0">Skip to content</a>
 <header class="rbt-app-header">
-    <div class="container-fluid">
-        <div class="row align-items-center">
-            <div class="col-auto rbt-brand-image-container"> <img src="../img/trident-large.png" alt="trident" class="rbt-brand-image"/> </div>
-            <div class="col-auto mr-auto rbt-brand-title-container"> <a href="#" class="rbt-brand-title">Application Title </a> </div>
-            <nav class="col-auto d-none d-lg-block">
-                <ul class="nav align-items-center">
+    <div class="grid-container fluid">
+        <div class="grid-x ">
+            <div class="cell auto rbt-brand-image-container"> <img src="../img/trident-large.png" alt="trident" class="rbt-brand-image"/> </div>
+            <div class="cell auto mr-auto rbt-brand-title-container"> <a href="#" class="rbt-brand-title">Application Title </a> </div>
+            <nav class="cell auto d-none d-lg-block">
+                <ul class="nav ">
                     <li class="nav-item">
                         <button class="nav-link active">Nav one</button>
                     </li>
@@ -34,7 +34,7 @@
                     </li>
                 </ul>
             </nav>
-            <div class="col-auto d-lg-none rbt-drawer-button">
+            <div class="cell auto d-lg-none rbt-drawer-button">
                 <button class="btn btn-link"><span class="rbt-icon-menu" aria-hidden="true"><span class="sr-only">Menu</span></span> </button>
             </div>
         </div>

@@ -13,7 +13,7 @@ $componentName = 'Date picker';
 <body>
 <?php include('includes/app-header.php') ?>
 <main>
-    <div class="container" id="mainContent">
+    <div class="grid-container" id="mainContent">
             <h2 class="mb-4"> <?php echo $componentName; ?> </h2>
             <p>Note - this component is sourced from <a href="https://valor-software.com/ngx-bootstrap/#/datepicker" target="_blank">NGX Bootstrap</a>, and is shown here for styling purposes.</p>
             <div class="demo-container">

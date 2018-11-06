@@ -14,7 +14,7 @@
                         </div>
                     </div>
                 </image-upload>
-                <div class="row no-gutters img-preview align-items-center" draggable="false" style="cursor: pointer;">
+                <div class="grid-x no-gutters img-preview " draggable="false" style="cursor: pointer;">
                     <div class="rvb-imagepreview-uploading pt-2 text-center" style="display:none"> <i class='fa fa-spinner fa-pulse fa-3x fa-fw align-middle'></i> </div>
                     <div style="display:none" id="img123"> <img alt="" tabindex="0" src="http://via.placeholder.com/300x200" class="">
                         <button class="btn btn-sm btn-danger"> <i class="fa fa-times"></i> <span class="sr-only">

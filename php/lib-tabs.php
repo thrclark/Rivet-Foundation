@@ -13,7 +13,7 @@ $componentName = 'Tabs';
 <body>
 <?php include('includes/app-header.php') ?>
 <main>
-    <div class="container" id="mainContent">
+    <div class="grid-container" id="mainContent">
         <h2 class="mb-4"> <?php echo $componentName; ?> </h2>
         <h3>Tabs - default</h3>
         <div class="demo-container">

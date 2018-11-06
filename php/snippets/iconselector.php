@@ -1,14 +1,14 @@
 
-<div class="row">
-    <div class="col-6">
+<div class="grid-x">
+    <div class="cell -6">
         <div class="card bg-light">
             <div class="card-body">
                 <div class="icon-selector">
                     <div class="icon-current">
-                        <div class="row align-items-center">
-                            <div class="col-auto icon-display"><i class=""></i></div>
-                            <div class="col icon-name">none selected</div>
-                            <div class="col icon-select">
+                        <div class="grid-x ">
+                            <div class="cell auto icon-display"><i class=""></i></div>
+                            <div class="cell icon-name">none selected</div>
+                            <div class="cell icon-select">
                                 <button type="button" class="btn btn-outline-primary" id="findIcon"> Choose </button>
                             </div>
                         </div>
@@ -16,17 +16,17 @@
                     <div class="icon-search" style="display:none">
                         <div class="card">
                             <div class="card-header">
-                                <div class="form-row align-items-center">
+                                <div class="form-row ">
                                     <div class="col">
                                         <input type="text" class="form-control" id="selectIcon" aria-describedby="" placeholder="Filter" onkeyup="selectIcon()">
                                     </div>
-                                    <div class="col-auto">
+                                    <div class="cell auto">
                                         <button class="btn btn-outline-primary" id="cancelSearch">Cancel</button>
                                     </div>
                                 </div>
                             </div>
                             <div class="card-body">
-                                <div class="row" id="iconSelection">
+                                <div class="grid-x" id="iconSelection">
                                     <button class="btn btn-outline-primary" type="button"> <i class="fa fa-address-book"></i> <span class="sr-only"> address-book </span></button>
                                     <button class="btn btn-outline-primary" type="button"> <i class="fa fa-address-book-o"></i> <span class="sr-only"> address-book-o </span></button>
                                     <button class="btn btn-outline-primary" type="button"> <i class="fa fa-address-card"></i> <span class="sr-only"> address-card </span></button>

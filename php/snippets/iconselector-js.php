@@ -8,7 +8,7 @@
     });
     // Set icon name
     $("#iconSelection button").click(function() {
-        $(".icon-name").replaceWith("<div class='col icon-name'>" + $(this).text() + "</div>");
+        $(".icon-name").replaceWith("<div class='cell icon-name'>" + $(this).text() + "</div>");
     });
     // Set icon class
     $("#iconSelection button i").click(function() {

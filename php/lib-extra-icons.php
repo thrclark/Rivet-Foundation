@@ -13,7 +13,7 @@ $componentName = 'Icons';
 <body>
 <?php include('includes/app-header.php') ?>
 <main>
-    <div class="container" id="mainContent">
+    <div class="grid-container" id="mainContent">
         <h2 class="mb-4"> <?php echo $componentName; ?> </h2>
         <p> Note - the icons found here are taken from the <a href="https://github.iu.edu/UITS/rivet-icons" target="_blank">Experimental Rivet Icon set</a>, and will likely change over time. Other icon sets (i.e FontAwesome, Icomoon, etc.) may be manually added to your projects as needed.</p>
         <div class="demo-container">

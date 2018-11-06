@@ -13,7 +13,7 @@ $componentName = 'Responsive table';
 <body>
 <?php include('includes/app-header.php') ?>
 <main>
-    <div class="container" id="mainContent">
+    <div class="grid-container" id="mainContent">
         <h2 class="mb-4"> <?php echo $componentName; ?> </h2>
         <div class="demo-container">
             <div class="demo-rendered p-4"> <a href="lib-extra-responsivetable-fp.php" class="btn btn-primary" target="_blank">View demo</a> </div>

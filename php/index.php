@@ -26,7 +26,7 @@ $componentName = 'About';
 <body>
 <?php include('includes/app-header.php') ?>
 <main>
-    <div class="container" style="margin-bottom:100px" id="mainContent">
+    <div class="grid-container" style="margin-bottom:100px" id="mainContent">
         <h1 class="mb-0">Rivet-Bootstrap</h1>
         <div class="badge badge-secondary rbt-badge-transparent mb-4">Version 1.1.0-3</div>
         <p> Rivet-Bootstrap is a visual design theme intended to meet the  design specifications as outlined in the <a href="https://uitsdsgn.webtest.iu.edu/uitsds/index.html" target="_blank">Rivet</a> design system currently maintained by the User Experience Office (UXO) at UITS, Indiana University. The premis of this project is to utilize a community-sourced UI framework as the foundation for a design system, and to customize and extend the theme to address the visual design requirements of Rivet (UXO). </p>
@@ -37,12 +37,12 @@ $componentName = 'About';
     </div>
 </main>
 <footer class="rbt-footer mt-5">
-    <div class="container-fluid">
-        <div class="row align-items-center">
-            <div class="col-auto mr-auto"><img src="../img/trident-small.png" width="44" height="56" alt="">
+    <div class="grid-container fluid">
+        <div class="grid-x ">
+            <div class="cell auto mr-auto"><img src="../img/trident-small.png" width="44" height="56" alt="">
                 <p><a href="https://www.iu.edu/copyright/index.html">Copyright</a> © 2018 The Trustees of <a href="https://www.iu.edu/">Indiana University</a></p>
             </div>
-            <div class="col-auto">
+            <div class="cell auto">
                 <ul class="rbt-footer-aux-links">
                     <li class="rbt-footer-aux-item"> <a href="#0">Privacy Policy</a> </li>
                     <li class="rbt-footer-aux-item"> <a href="https://accessibility.iu.edu/">Accessibility help</a> </li>

@@ -1,24 +1,24 @@
 <a class="rbt-skip-link" href="#main-content" tabindex="0">Skip to content</a>
 <header class="rbt-app-header">
-    <div class="container-fluid">
-        <div class="row justify-content-between align-items-center">
-            <div class="col-auto">
-                <div class="row">
-                    <div class="col-auto">
-                        <div class="row align-items-center">
-                            <div class="col-auto rbt-brand-image-container"> <img src="../img/trident-large.png" alt="trident" class="rbt-brand-image"/> </div>
-                            <div class="col col-lg-auto rbt-brand-title-container"> <a href="#" class="rbt-brand-title">Application Title </a> </div>
+    <div class="grid-container fluid">
+        <div class="grid-x">
+            <div class="cell auto">
+                <div class="grid-x">
+                    <div class="cell auto">
+                        <div class="grid-x ">
+                            <div class="cell auto rbt-brand-image-container"> <img src="../img/trident-large.png" alt="trident" class="rbt-brand-image"/> </div>
+                            <div class="cell -lg-auto rbt-brand-title-container"> <a href="#" class="rbt-brand-title">Application Title </a> </div>
                         </div>
                     </div>
                 </div>
             </div>
             <nav class="d-none d-lg-block">
-                <ul class="nav align-items-center mr-5">
+                <ul class="nav  mr-5">
                     <li class="nav-item dropdown menu-large">
                         <button class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Panel one</button>
                         <ul class="dropdown-menu rbt-navpanel">
-                            <div class="row">
-                                <li class="col-md-3 dropdown-item d-flex align-items-stretch" >
+                            <div class="grid-x">
+                                <li class="cell medium-3 dropdown-item d-flex align-items-stretch" >
                                     <div class="card">
                                         <div class="card-body">
                                             <div class="input-group mb-3">
@@ -30,7 +30,7 @@
                                             Aenean massa. Natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis. </div>
                                     </div>
                                 </li>
-                                <li class="col-md-3 dropdown-item">
+                                <li class="cell medium-3 dropdown-item">
                                     <h3 class="dropdown-header" >Header</h3>
                                     <ul>
                                         <li><a href="#">Lorem Ipsum</a></li>
@@ -42,7 +42,7 @@
                                         <li><a href="#">Fringilla Vel</a></li>
                                     </ul>
                                 </li>
-                                <li class="col-md-3 dropdown-item">
+                                <li class="cell medium-3 dropdown-item">
                                     <h3 class="dropdown-header" >Header</h3>
                                     <ul>
                                         <li><a href="#">Maecenas Nec</a></li>
@@ -55,7 +55,7 @@
                                         <li><a href="#">Ut Metus</a></li>
                                     </ul>
                                 </li>
-                                <li class="col-md-3 dropdown-item">
+                                <li class="cell medium-3 dropdown-item">
                                     <h3 class="dropdown-header" >Header</h3>
                                     <ul>
                                         <li><a href="#">Aenean</a></li>
@@ -73,8 +73,8 @@
                     <li class="nav-item dropdown menu-large">
                         <button class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Panel two</button>
                         <ul class="dropdown-menu rbt-navpanel">
-                            <div class="row d-flex align-items-stretch">
-                                <li class="col-md-3 dropdown-item">
+                            <div class="grid-x d-flex align-items-stretch">
+                                <li class="cell medium-3 dropdown-item">
                                     <h3 class="dropdown-header" >Header</h3>
                                     <ul>
                                         <li><a href="#">Lorem Ipsum</a></li>
@@ -86,7 +86,7 @@
                                         <li><a href="#">Fringilla Vel</a></li>
                                     </ul>
                                 </li>
-                                <li class="col-md-3 dropdown-item">
+                                <li class="cell medium-3 dropdown-item">
                                     <h3 class="dropdown-header" >Header</h3>
                                     <ul>
                                         <li><a href="#">Maecenas Nec</a></li>
@@ -99,7 +99,7 @@
                                         <li><a href="#">Ut Metus</a></li>
                                     </ul>
                                 </li>
-                                <li class="col-md-3 dropdown-item">
+                                <li class="cell medium-3 dropdown-item">
                                     <h3 class="dropdown-header" >Header</h3>
                                     <ul>
                                         <li><a href="#">Aenean</a></li>
@@ -111,7 +111,7 @@
                                         <li><a href="#">Libero</a></li>
                                     </ul>
                                 </li>
-                                <li class="col-md-3 dropdown-item">
+                                <li class="cell medium-3 dropdown-item">
                                     <h3 class="dropdown-header" >Header</h3>
                                     <ul>
                                         <li><a href="#">Maecenas Nec</a></li>

@@ -13,7 +13,7 @@ $componentName = 'Growl alerts';
 <body>
 <?php include('includes/app-header.php') ?>
 <main>
-    <div class="container" id="mainContent">
+    <div class="grid-container" id="mainContent">
             <h2 class="mb-4"> <?php echo $componentName; ?> </h2>
             <div class="demo-container">
                 <div class="demo-rendered p-4">

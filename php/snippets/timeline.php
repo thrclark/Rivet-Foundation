@@ -1,6 +1,6 @@
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
+<div class="grid-container">
+    <div class="grid-x">
+        <div class="cell medium-12">
             <ul class="rvb-timeline">
                 <li>
                     <time class="rvb-timeline-timestamp" datetime="2018-08-07T03:45"><span>08/07/2018</span> <span>03:45 AM</span></time>

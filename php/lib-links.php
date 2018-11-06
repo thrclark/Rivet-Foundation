@@ -14,7 +14,7 @@ $componentName = 'Links';
 <body>
 <?php include('includes/app-header.php') ?>
 <main>
-    <div class="container" id="mainContent">
+    <div class="grid-container" id="mainContent">
             <h1 class="mb-4"> <?php echo $componentName; ?></h1>
             <p class="mb-4">The Rivet equvalent for this component is available <a href="https://rivet.uits.iu.edu/components/page-content/links/" target="_blank">here</a> for comparison.</p>
             <div class="demo-container">

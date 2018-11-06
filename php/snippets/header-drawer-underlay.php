@@ -1,20 +1,20 @@
 <a class="rbt-skip-link" href="#main-content" tabindex="0">Skip to content</a>
 <header class="rbt-app-header">
-    <div class="container-fluid">
-        <div class="row justify-content-between align-items-center">
-            <div class="col-auto">
-                <div class="row">
-                    <div class="col-auto">
-                        <div class="row align-items-center">
-                            <div class="col-auto rbt-brand-image-container"> <img src="../img/trident-large.png" alt="trident" class="rbt-brand-image"/> </div>
-                            <div class="col col-lg-auto rbt-brand-title-container"> <a href="#" class="rbt-brand-title">Application Title </a> </div>
+    <div class="grid-container fluid">
+        <div class="grid-x">
+            <div class="cell auto">
+                <div class="grid-x">
+                    <div class="cell auto">
+                        <div class="grid-x ">
+                            <div class="cell auto rbt-brand-image-container"> <img src="../img/trident-large.png" alt="trident" class="rbt-brand-image"/> </div>
+                            <div class="cell -lg-auto rbt-brand-title-container"> <a href="#" class="rbt-brand-title">Application Title </a> </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-auto">
-                <div class="row align-items-center">
-                    <div class="col-auto rbt-drawer-button">
+            <div class="cell auto">
+                <div class="grid-x ">
+                    <div class="cell auto rbt-drawer-button">
                         <button class="btn btn-link"><span class="rbt-icon-menu" aria-hidden="true"><span class="sr-only">Menu</span></span> </button>
                     </div>
                 </div>
@@ -32,7 +32,7 @@
         </ul>
     </nav>
 </div>
-<div class="container-fluid pt-3" id="mainContent">
+<div class="grid-container fluid pt-3" id="mainContent">
     <div class="alert alert-primary alert-dismissible fade show" role="alert">
         <button type="button" class="close" aria-label="Close" data-dismiss="alert"> <span class="rbt-icon-close"></span> </button>
         <p class="small">Open the drawer ('hamburger' icon at the top right of screen) to see the underlay effect.</p>
