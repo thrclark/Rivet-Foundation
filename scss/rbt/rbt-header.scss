@@ -27,11 +27,19 @@
   height: 48px;
   .menu {
     position: inherit;
+    button {
+      padding: 0.7rem 1rem;
+    }
     .rfd-megamenu {
       &.is-open {
-        top: 70px !important;
+        top: 11px !important;
         left: 0px !important;
         width: 100%;
+        border-left: none;
+        border-right: none;
+        transform: translate3d(0px, 58px, 0px) !important;
+        box-shadow: 0 1rem 5rem -2rem rgba(0, 0, 0, 0.5);
+        background: $color-black--50;
         ul {
           margin-left: 0;
           list-style: none;
@@ -47,6 +55,7 @@
 
   a {
     text-decoration: none;
+    color: $body-font-color;
   }
   &.rbt-app-header--light {
     background: $color-white;
@@ -193,7 +202,6 @@
     .rbt-brand-title-container {
       .rbt-brand-title {
         font-size: 1.4375rem;
-        margin-left: inherit;
       }
     }
     .rbt-drawer-button {

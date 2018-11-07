@@ -169,7 +169,7 @@ $code-border: 1px solid $medium-gray;
 $code-padding: rem-calc(2 5 1);
 $anchor-color: $primary-color;
 $anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
-$anchor-text-decoration: none;
+$anchor-text-decoration: underline;
 $anchor-text-decoration-hover: none;
 $hr-width: $global-width;
 $hr-border: 1px solid $medium-gray;
@@ -889,3 +889,16 @@ $color-black--900: #444444;
 // Use this when you need a default (darkest) black.
 $color-black--rich: #000000;
 
+$blue:    #006298 !default;
+
+
+
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #df3603 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #008a28 !default;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;

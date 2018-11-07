@@ -1,0 +1,45 @@
+.badge {
+  font-size: 80% !important;
+  letter-spacing: .02rem!important;
+  line-height: 1.5!important;
+  -webkit-font-smoothing: antialiased;
+  text-decoration: none;
+  display: inline-block;
+  border: 2px solid;
+  border-radius: 999px;
+  font-weight: 700;
+  padding: 0.03125em 0.5em;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+
+  &.secondary {
+    border-color: $color-black--300;
+    background: $color-black--300;
+    color: $body-font-color;
+  }
+  &.primary {
+    border-color: $blue;
+    &.hollow {
+      color: $blue;
+    }
+  }
+  &.success {
+    border-color: $green;
+    &.hollow {
+      color: $green;
+    }
+  }
+  &.warning {
+    border-color: $yellow;
+  }
+  &.alert {
+    border-color: $red;
+    &.hollow {
+      color: $red;
+    }
+  }
+  &.hollow {
+    background: transparent;
+  }
+}

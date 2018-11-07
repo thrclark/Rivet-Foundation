@@ -1,4 +1,4 @@
-<ul class="list-unstyled">
+<ul class="no-bullet">
     <li>List Item One</li>
     <li>List Item Two</li>
     <li>List Item Three</li>

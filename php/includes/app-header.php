@@ -1,86 +1,83 @@
  <a class="rbt-skip-link" href="#mainContent">Skip to content</a>
 <header class="rbt-app-header rbt-app-header--light fixed-top" style="display:">
-    <div class="grid-container fluid">
-        <div class="grid-x align-middle">
+    <div class="grid-container fluid full">
+        <div class="grid-x align-middle grid-margin-x">
             <div class="cell auto">
-                <div class="grid-x">
-                    <div class="cell auto">
-                        <div class="grid-x">
-                            <div class="cell auto rbt-brand-image-container"> <img src="../img/trident-large.png" alt="trident" class="rbt-brand-image"> </div>
-                            <div class="cell large-auto rbt-brand-title-container"> <a href="#" class="rbt-brand-title"><strong>Rivet-Foundation</strong></a> </div>
-                        </div>
-                    </div>
+                <div class="grid-x align-middle grid-margin-x">
+                    <div class="cell shrink rbt-brand-image-container"> <img src="../img/trident-large.png" alt="trident" class="rbt-brand-image"> </div>
+                    <div class="cell auto rbt-brand-title-container"> <a href="#" class="rbt-brand-title"><strong>Rivet-Foundation</strong></a> </div>
                 </div>
             </div>
-            <nav class="">
-                <ul class="menu  margin-right-3">
-                    <li class="nav-item"> <a class="nav-link  <?php if ($componentName == 'About') { echo 'active'; } ?>" href="index.php">About</a> </li>
-                    <li>
-                        <button class="" type="button" data-toggle="example-dropdown">Toggle Dropdown</button>
-                        <div class="dropdown-pane rfd-megamenu" id="example-dropdown" data-dropdown data-auto-focus="true">
-                            <div class="grid-container">
-                                <ul class="grid-x">
-                                    <li class="cell medium-3 dropdown-item">
-                                        <h3 class="dropdown-header" >Page content</h3>
-                                        <ul>
-                                            <li <?php if ($componentName == 'Badges') { echo 'class="active"'; } ?>><a href="lib-badges.php">Badges</a></li>
-                                            <li <?php if ($componentName == 'Links') { echo 'class="active"'; } ?>><a href="lib-links.php">Links</a></li>
-                                            <li <?php if ($componentName == 'Lists') { echo 'class="active"'; } ?>><a href="lib-lists.php">Lists</a></li>
-                                            <li <?php if ($componentName == 'Tables') { echo 'class="active"'; } ?>><a href="lib-tables.php">Tables</a></li>
-                                            <li <?php if ($componentName == 'Tabs') { echo 'class="active"'; } ?>><a href="lib-tabs.php">Tabs</a> </li>
-                                        </ul>
-                                    </li>
-                                    <li class="cell medium-3 dropdown-item">
-                                        <h3 class="dropdown-header" >Forms</h3>
-                                        <ul>
-                                            <li <?php if ($componentName == 'Buttons') { echo 'class="active"'; } ?>><a href="lib-buttons.php">Buttons</a></li>
-                                            <li <?php if ($componentName == 'Segmented buttons') { echo 'class="active"'; } ?>><a href="lib-buttons-segmented.php">Segmented buttons</a></li>
-                                            <li <?php if ($componentName == 'Checkboxes') { echo 'class="active"'; } ?>><a href="lib-checkboxes.php">Checkboxes</a></li>
-                                            <li <?php if ($componentName == 'File input') { echo 'class="active"'; } ?>><a href="lib-fileinput.php">File input</a></li>
-                                            <li <?php if ($componentName == 'Input groups') { echo 'class="active"'; } ?>><a href="lib-inputgroup.php">Input groups</a></li>
-                                            <li <?php if ($componentName == 'Radio buttons') { echo 'class="active"'; } ?>><a href="lib-radiobuttons.php">Radio buttons</a></li>
-                                            <li <?php if ($componentName == 'Select element') { echo 'class="active"'; } ?>><a href="lib-selectelement.php">Select element</a></li>
-                                            <li <?php if ($componentName == 'Text inputs') { echo 'class="active"'; } ?>><a href="lib-textinputs.php">Text inputs</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="cell medium-3 dropdown-item">
-                                        <h3 class="dropdown-header" >Layout</h3>
-                                        <ul>
-                                            <li <?php if ($componentName == 'Grid') { echo 'class="active"'; } ?>><a href="lib-grid.php">Grid</a></li>
-                                            <li <?php if ($componentName == 'Panels') { echo 'class="active"'; } ?>><a href="lib-panel.php">Panels</a></li>
-                                            <li <?php if ($componentName == 'Spacing') { echo 'class="active"'; } ?>><a href="lib-spacing.php">Spacing</a></li>
-                                            <li <?php if ($componentName == 'Typography') { echo 'class="active"'; } ?>><a href="lib-typography.php">Typography</a></li>
-                                        </ul>
-                                        <h3 class="dropdown-header" >Navigation</h3>
-                                        <ul>
-                                            <li <?php if ($componentName == 'Breadcrumb') { echo 'class="active"'; } ?>><a href="lib-breadcrumbs.php">Breadcrumb</a></li>
-                                            <li <?php if ($componentName == 'Dropdown') { echo 'class="active"'; } ?>><a href="lib-dropdown.php">Dropdown</a></li>
-                                            <li <?php if ($componentName == 'Footer') { echo 'class="active"'; } ?>><a href="lib-footer.php">Footer</a></li>
-                                            <li <?php if ($componentName == 'Header') { echo 'class="active"'; } ?>><a href="lib-header.php">Header</a></li>
-                                            <li <?php if ($componentName == 'Pagination') { echo 'class="active"'; } ?>><a href="lib-pagination.php">Pagination</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="cell medium-3 dropdown-item">
-                                        <h3 class="dropdown-header" >Overlays</h3>
-                                        <ul>
-                                            <li <?php if ($componentName == 'Alerts') { echo 'class="active"'; } ?>><a href="lib-alerts.php">Alerts</a></li>
-                                            <li <?php if ($componentName == 'Modals') { echo 'class="active"'; } ?>><a href="lib-modals.php">Modals</a></li>
-                                        </ul>
-                                        <h3 class="dropdown-header" >Utilities</h3>
-                                        <ul>
-                                            <li <?php if ($componentName == 'Border') { echo 'class="active"'; } ?>><a href="lib-border.php">Border</a></li>
-                                            <li <?php if ($componentName == 'Display') { echo 'class="active"'; } ?>><a href="lib-display.php">Display</a></li>
-                                            <li <?php if ($componentName == 'Text') { echo 'class="active"'; } ?>><a href="lib-text.php">Text</a></li>
-                                            <li <?php if ($componentName == 'Visibility') { echo 'class="active"'; } ?>><a href="lib-visibility.php">Visibility</a></li>
-                                            <li <?php if ($componentName == 'Z-index') { echo 'class="active"'; } ?>><a href="lib-zindex.php">Z-index</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
+            <div class="cell auto">
+                <nav class="float-right">
+                    <ul class="menu  margin-right-3">
+                        <li class="nav-item"> <a class="nav-link  <?php if ($componentName == 'About') { echo 'active'; } ?>" href="index.php">About</a> </li>
+                        <li>
+                            <button class="" type="button" data-toggle="example-dropdown">Library</button>
+                            <div class="dropdown-pane rfd-megamenu" id="example-dropdown" data-dropdown data-auto-focus="true">
+                                <div class="grid-container">
+                                    <ul class="grid-x">
+                                        <li class="cell medium-3 dropdown-item">
+                                            <h3 class="dropdown-header" >Page content</h3>
+                                            <ul>
+                                                <li <?php if ($componentName == 'Badges') { echo 'class="active"'; } ?>><a href="lib-badges.php">Badges</a></li>
+                                                <li <?php if ($componentName == 'Links') { echo 'class="active"'; } ?>><a href="lib-links.php">Links</a></li>
+                                                <li <?php if ($componentName == 'Lists') { echo 'class="active"'; } ?>><a href="lib-lists.php">Lists</a></li>
+                                                <li <?php if ($componentName == 'Tables') { echo 'class="active"'; } ?>><a href="lib-tables.php">Tables</a></li>
+                                                <li <?php if ($componentName == 'Tabs') { echo 'class="active"'; } ?>><a href="lib-tabs.php">Tabs</a> </li>
+                                            </ul>
+                                        </li>
+                                        <li class="cell medium-3 dropdown-item">
+                                            <h3 class="dropdown-header" >Forms</h3>
+                                            <ul>
+                                                <li <?php if ($componentName == 'Buttons') { echo 'class="active"'; } ?>><a href="lib-buttons.php">Buttons</a></li>
+                                                <li <?php if ($componentName == 'Segmented buttons') { echo 'class="active"'; } ?>><a href="lib-buttons-segmented.php">Segmented buttons</a></li>
+                                                <li <?php if ($componentName == 'Checkboxes') { echo 'class="active"'; } ?>><a href="lib-checkboxes.php">Checkboxes</a></li>
+                                                <li <?php if ($componentName == 'File input') { echo 'class="active"'; } ?>><a href="lib-fileinput.php">File input</a></li>
+                                                <li <?php if ($componentName == 'Input groups') { echo 'class="active"'; } ?>><a href="lib-inputgroup.php">Input groups</a></li>
+                                                <li <?php if ($componentName == 'Radio buttons') { echo 'class="active"'; } ?>><a href="lib-radiobuttons.php">Radio buttons</a></li>
+                                                <li <?php if ($componentName == 'Select element') { echo 'class="active"'; } ?>><a href="lib-selectelement.php">Select element</a></li>
+                                                <li <?php if ($componentName == 'Text inputs') { echo 'class="active"'; } ?>><a href="lib-textinputs.php">Text inputs</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="cell medium-3 dropdown-item">
+                                            <h3 class="dropdown-header" >Layout</h3>
+                                            <ul>
+                                                <li <?php if ($componentName == 'Grid') { echo 'class="active"'; } ?>><a href="lib-grid.php">Grid</a></li>
+                                                <li <?php if ($componentName == 'Panels') { echo 'class="active"'; } ?>><a href="lib-panel.php">Panels</a></li>
+                                                <li <?php if ($componentName == 'Spacing') { echo 'class="active"'; } ?>><a href="lib-spacing.php">Spacing</a></li>
+                                                <li <?php if ($componentName == 'Typography') { echo 'class="active"'; } ?>><a href="lib-typography.php">Typography</a></li>
+                                            </ul>
+                                            <h3 class="dropdown-header" >Navigation</h3>
+                                            <ul>
+                                                <li <?php if ($componentName == 'Breadcrumb') { echo 'class="active"'; } ?>><a href="lib-breadcrumbs.php">Breadcrumb</a></li>
+                                                <li <?php if ($componentName == 'Dropdown') { echo 'class="active"'; } ?>><a href="lib-dropdown.php">Dropdown</a></li>
+                                                <li <?php if ($componentName == 'Footer') { echo 'class="active"'; } ?>><a href="lib-footer.php">Footer</a></li>
+                                                <li <?php if ($componentName == 'Header') { echo 'class="active"'; } ?>><a href="lib-header.php">Header</a></li>
+                                                <li <?php if ($componentName == 'Pagination') { echo 'class="active"'; } ?>><a href="lib-pagination.php">Pagination</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="cell medium-3 dropdown-item">
+                                            <h3 class="dropdown-header" >Overlays</h3>
+                                            <ul>
+                                                <li <?php if ($componentName == 'Alerts') { echo 'class="active"'; } ?>><a href="lib-alerts.php">Alerts</a></li>
+                                                <li <?php if ($componentName == 'Modals') { echo 'class="active"'; } ?>><a href="lib-modals.php">Modals</a></li>
+                                            </ul>
+                                            <h3 class="dropdown-header" >Utilities</h3>
+                                            <ul>
+                                                <li <?php if ($componentName == 'Border') { echo 'class="active"'; } ?>><a href="lib-border.php">Border</a></li>
+                                                <li <?php if ($componentName == 'Display') { echo 'class="active"'; } ?>><a href="lib-display.php">Display</a></li>
+                                                <li <?php if ($componentName == 'Text') { echo 'class="active"'; } ?>><a href="lib-text.php">Text</a></li>
+                                                <li <?php if ($componentName == 'Visibility') { echo 'class="active"'; } ?>><a href="lib-visibility.php">Visibility</a></li>
+                                                <li <?php if ($componentName == 'Z-index') { echo 'class="active"'; } ?>><a href="lib-zindex.php">Z-index</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                    
-                    <!--  <li>
+                        </li>
+                        
+                        <!--  <li>
                     <button class="" type="button" data-toggle="example-dropdown">Toggle Dropdown</button>
                     <div class="dropdown-pane" id="example-dropdown" data-dropdown data-auto-focus="true">
                        <ul class="grid-x">
@@ -144,7 +141,7 @@
                         </ul>
                     </div>
                     </li>--> 
-                    <!--   <li class="nav-item dropdown menu-large" style="display:none">
+                        <!--   <li class="nav-item dropdown menu-large" style="display:none">
                         <button class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Library</button>
                         <ul class="dropdown-menu rbt-navpanel">
                             <div class="grid-x d-flex align-items-stretch">
@@ -252,10 +249,11 @@
                             </div>
                         </ul>
                     </li>-->
-                    <li class="nav-item"> <a class="nav-link " href="https://github.com/thrclark/hackweek-2017.11" target="_blank">Download</a> </li>
-                </ul>
-            </nav>
-            <div class="cell auto d-lg-none rbt-drawer-button">
+                        <li class="nav-item"> <a class="nav-link " href="#" target="_blank">Download</a> </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="cell auto d-lg-none rbt-drawer-button" style="display:none">
                 <button class="btn btn-link"><span class="sr-only">Menu</span><span class="rbt-icon-menu" aria-hidden="true"></span> </button>
             </div>
         </div>
