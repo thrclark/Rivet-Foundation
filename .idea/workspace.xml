@@ -6,80 +6,13 @@
       <change beforePath="$PROJECT_DIR$/css/demo.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/demo.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/font-test.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/font-test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/includes/app-header.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/includes/app-header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/includes/footerscripts.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/includes/footerscripts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/includes/head-meta.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/includes/head-meta.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/includes/side-nav-extra.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/includes/side-nav-extra.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/includes/side-nav-lib.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/includes/side-nav-lib.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-alerts.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-alerts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-badges.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-badges.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-border.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-border.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-breadcrumbs.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-breadcrumbs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-buttons-segmented.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-buttons-segmented.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-buttons.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-buttons.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-checkboxes.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-checkboxes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-display.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-display.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-dropdown.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-dropdown.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-extra-buttonprogress.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-extra-buttonprogress.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-extra-charactercount.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-extra-charactercount.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-extra-clearfield.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-extra-clearfield.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-extra-datepicker.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-extra-datepicker.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-extra-drawer-underlay.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-extra-drawer-underlay.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-extra-dropdowns.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-extra-dropdowns.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-extra-expressionbuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-extra-expressionbuilder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-extra-growls.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-extra-growls.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-extra-icons.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-extra-icons.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-extra-iconselector.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-extra-iconselector.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-extra-imageupload.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-extra-imageupload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-extra-inlineerrors.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-extra-inlineerrors.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-extra-inputgroup.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-extra-inputgroup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-extra-menupanel.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-extra-menupanel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-extra-responsivetable.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-extra-responsivetable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-extra-richtext.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-extra-richtext.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-extra-sidebarnav.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-extra-sidebarnav.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-extra-timeline.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-extra-timeline.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-fileinput.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-fileinput.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-grid.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-grid.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-header.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-inputgroup.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-inputgroup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-links.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-links.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-lists.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-lists.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-modals.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-modals.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-pagination.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-panel.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-panel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-radiobuttons.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-radiobuttons.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-selectelement.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-selectelement.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-spacing.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-spacing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-tables.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-tables.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-tabs.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-tabs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-text.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-text.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-textinputs.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-textinputs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-typography.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-typography.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-visibility.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-visibility.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-zindex.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-zindex.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/snippets/alerts-inline.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/alerts-inline.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/snippets/buttons-icons.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/buttons-icons.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/snippets/checkbox-alternate.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/checkbox-alternate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/snippets/dropdowns.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/dropdowns.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/snippets/fileinput.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/fileinput.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/snippets/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/snippets/header-default.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/header-default.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/snippets/header-drawer-underlay.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/header-drawer-underlay.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/snippets/header-identity.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/header-identity.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/snippets/header-light.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/header-light.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/snippets/header-mainnav.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/header-mainnav.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/snippets/header-menupanel.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/header-menupanel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/snippets/iconselector.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/iconselector.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/snippets/inline-errors.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/inline-errors.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/snippets/inputgroup-extra.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/inputgroup-extra.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/snippets/radios-inline-alternate.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/radios-inline-alternate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/snippets/text-area-validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/text-area-validation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/snippets/text-input-validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/text-input-validation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/demo/demostyles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/demo/demostyles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/rbt/rbt-buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/rbt/rbt-buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/rbt/rbt-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/rbt/rbt-header.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,15 +24,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="rbt-fonts.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-fonts.scss">
           <provider selected="true" editor-type-id="text-editor">
@@ -121,7 +45,7 @@
       <file leaf-file-name="rbt-variables.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
+            <state relative-caret-position="3407">
               <caret line="282" column="37" selection-start-line="282" selection-start-column="37" selection-end-line="282" selection-end-column="37" />
             </state>
           </provider>
@@ -136,11 +60,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rbt-buttons.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="rbt-buttons.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-buttons.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            <state relative-caret-position="45">
+              <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rbt-header.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-header.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -205,7 +138,6 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/scss/rbt/rbt-header.scss" />
         <option value="$PROJECT_DIR$/scss/rbt/rbt-drawer.scss" />
         <option value="$PROJECT_DIR$/scss/rbt/rbt-tables-responsive.scss" />
         <option value="$PROJECT_DIR$/scss/rbt/rbt-typescale.scss" />
@@ -220,6 +152,7 @@
         <option value="$PROJECT_DIR$/scss/rbt/rbt-variables.scss" />
         <option value="$PROJECT_DIR$/scss/demo/demostyles.scss" />
         <option value="$PROJECT_DIR$/scss/rbt/rbt-buttons.scss" />
+        <option value="$PROJECT_DIR$/scss/rbt/rbt-header.scss" />
       </list>
     </option>
   </component>
@@ -393,15 +326,16 @@
       <updated>1541436161829</updated>
       <workItem from="1541436163501" duration="2224000" />
       <workItem from="1541440602773" duration="862000" />
-      <workItem from="1541516035422" duration="9600000" />
+      <workItem from="1541516035422" duration="11079000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12686000" />
+    <option name="totallyTimeSpent" value="14165000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="38" width="1919" height="1084" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -501,9 +435,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-header.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-drawer.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -580,13 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="282" column="37" selection-start-line="282" selection-start-column="37" selection-end-line="282" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/demo.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -610,8 +534,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-buttons.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        <state relative-caret-position="45">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3407">
+          <caret line="282" column="37" selection-start-line="282" selection-start-column="37" selection-end-line="282" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
         </state>
       </provider>
     </entry>

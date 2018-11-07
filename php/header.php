@@ -21,7 +21,7 @@ $page_title = '';
             <div class="cell auto rbt-brand-image-container"> <img src="../img/trident-large.png" alt="trident" class="rbt-brand-image"/> </div>
             
             <!--App Title-->
-            <div class="cell -lg-auto rbt-brand-title-container"> <a href="#" class="rbt-brand-title">Application Title </a> </div>
+            <div class="cell large-auto rbt-brand-title-container"> <a href="#" class="rbt-brand-title">Application Title </a> </div>
             
             <!--App Navigation-->
             <div class="cell d-none d-lg-block rbt-site-nav">
