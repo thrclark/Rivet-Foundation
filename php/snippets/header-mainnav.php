@@ -26,7 +26,7 @@
                     </li>
                     <li class="nav-item dropdown">
                         <button class="nav-link dropdown-toggle" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false">
-                        <div class="rbt-header-avatar-id py-1"> <span class="rbt-header-avatar" aria-hidden="true">RS</span> rswanson </div>
+                        <div class="rbt-header-avatar-id padding-vertical-1"> <span class="rbt-header-avatar" aria-hidden="true">RS</span> rswanson </div>
                         </button>
                         <div class="dropdown-menu dropdown-menu-right"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a>
                             <div class="dropdown-divider"></div>

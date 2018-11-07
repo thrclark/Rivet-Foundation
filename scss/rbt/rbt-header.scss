@@ -1,5 +1,11 @@
 /// Copyright 2018 Indiana University Research and Technology Corporation ///
 
+
+
+
+
+
+
 .rbt-skip-link {
   position: fixed;
   top: -6rem;
@@ -19,6 +25,25 @@
   z-index: 1001;
   align-items: center;
   height: 48px;
+  .menu {
+    position: inherit;
+    .rfd-megamenu {
+      &.is-open {
+        top: 70px !important;
+        left: 0px !important;
+        width: 100%;
+        ul {
+          margin-left: 0;
+          list-style: none;
+          li {
+            a {
+             padding: .2rem;
+            }
+          }
+        }
+      }
+    }
+  }
 
   a {
     text-decoration: none;
@@ -34,7 +59,7 @@
 
     &:before {
       content: '';
-      background:$color-black--500;
+      background: $color-black--500;
       position: absolute;
       width: 1px;
       height: 32px;
@@ -113,7 +138,6 @@
     }
   }
 
-
   .rbt-drawer-button {
     height: 48px;
     width: 48px;
@@ -122,7 +146,7 @@
       background: $color-black--100;
       .btn.btn-link {
         .rbt-icon-menu:before {
-          content:"\e918";
+          content: "\e918";
         }
         &:focus {
           //background: $primary;
@@ -149,7 +173,7 @@
       }
       &:focus {
         box-shadow: none !important;
-       //@include rvb-focusoutline;
+        //@include rvb-focusoutline;
         outline-offset: -2px;
 
       }
@@ -158,9 +182,9 @@
   }
 }
 
-
+@media screen and (min-width: 40em) {
   .rbt-app-header {
-    height:70px;
+    height: 70px;
     .rbt-brand-image-container {
       .rbt-brand-image {
         max-height: 70px;
@@ -182,4 +206,7 @@
       }
     }
   }
+}
+
+
 

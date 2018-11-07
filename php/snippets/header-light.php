@@ -1,7 +1,7 @@
 <a class="rbt-skip-link" href="#main-content" tabindex="0">Skip to content</a>
 <header class="rbt-app-header rbt-app-header--light">
     <div class="grid-container fluid">
-        <div class="grid-x ">
+        <div class="grid-x align-middle">
             <div class="cell auto rbt-brand-image-container"> <img src="../img/trident-large.png" alt="trident" class="rbt-brand-image"/> </div>
             <div class="cell auto margin-right-auto rbt-brand-title-container"> <a href="#" class="rbt-brand-title">Application Title </a> </div>
             <nav class="cell auto d-none d-lg-block">
@@ -26,7 +26,7 @@
                     </li>
                     <li class="nav-item dropdown">
                         <button class="nav-link dropdown-toggle" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false">
-                        <div class="rbt-header-avatar-id py-1"> <span class="rbt-header-avatar" aria-hidden="true">RS</span> rswanson </div>
+                        <div class="rbt-header-avatar-id padding-vertical-1"> <span class="rbt-header-avatar" aria-hidden="true">RS</span> rswanson </div>
                         </button>
                         <div class="dropdown-menu dropdown-menu-right"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a>
                             <div class="dropdown-divider"></div>
