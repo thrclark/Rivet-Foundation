@@ -26,16 +26,7 @@ $componentName = 'Select element';
                 <pre data-src="snippets/select-default.php" class="language-html" id="code1"></pre>
             </div>
         </div>
-        <h2>Select - validation <span class="badge alert">Custom work needed</span> </h2>
-        <div class="demo-container">
-            <div class="demo-rendered padding-3">
-                <?php include('snippets/select-validation.php') ?>
-            </div>
-            <div class="demo-code"> <small>HTML</small>
-                <button class="button small primary" data-clipboard-target="#code2">Copy</button>
-                <pre data-src="snippets/select-validation.php" class="language-html" id="code2"></pre>
-            </div>
-        </div>
+       
     </div>
 </main>
 <?php include('includes/footer.php') ?>

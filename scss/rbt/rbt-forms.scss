@@ -103,9 +103,6 @@ input[type="checkbox"] {
   }
 
 }
-
-
-
 input[type="checkbox"]:indeterminate+label:before {
 
   color: $color-white;
@@ -116,5 +113,22 @@ input[type="checkbox"]:indeterminate+label:before {
   font-size: 12px;
   padding-left: 2px;
   line-height: 1.4;
+
+}
+
+
+
+
+// dropdowns
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding-right: 2rem;
+  background-color: $color-white;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICAgIDxwYXRoIGZpbGw9IiMzMzMzMzMiIGQ9Ik04LDEyLjQ2YTIsMiwwLDAsMS0xLjUyLS43TDEuMjQsNS42NWExLDEsMCwxLDEsMS41Mi0xLjNMOCwxMC40Nmw1LjI0LTYuMTFhMSwxLDAsMCwxLDEuNTIsMS4zTDkuNTIsMTEuNzZBMiwyLDAsMCwxLDgsMTIuNDZaIi8+Cjwvc3ZnPg==");
+  background-size: 1rem 1rem;
+  background-repeat: no-repeat;
+  padding-left: 0.5rem;
 
 }

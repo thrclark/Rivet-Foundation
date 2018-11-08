@@ -14,7 +14,7 @@ $componentName = 'Input groups';
 <?php include('includes/app-header.php') ?>
 <main>
     <div class="grid-container" id="mainContent">
-        <h2 class="margin-bottom-3"> <?php echo $componentName; ?> <span class="badge alert">Custom work needed</span></h2>
+        <h2 class="margin-bottom-3"> <?php echo $componentName; ?> </h2>
         <div class="demo-container">
             <div class="demo-rendered padding-3">
                 <?php include('snippets/inputgroup.php') ?>
