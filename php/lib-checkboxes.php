@@ -26,7 +26,7 @@ $componentName = 'Checkboxes';
                 <pre data-src="snippets/checkbox-inline.php" class="language-html" id="code1"></pre>
             </div>
         </div>
-        <h2>Checkboxes - stacked <span class="badge alert">Custom work needed</span></h2>
+        <h2>Checkboxes - stacked </h2>
         <div class="demo-container">
             <div class="demo-rendered padding-3">
                 <?php include('snippets/checkbox-stacked.php') ?>
@@ -36,7 +36,7 @@ $componentName = 'Checkboxes';
                 <pre data-src="snippets/checkbox-stacked.php" class="language-html" id="code2"></pre>
             </div>
         </div>
-        <h2>Checkboxes - indeterminate <span class="badge alert">Custom work needed</span></h2>
+        <h2>Checkboxes - indeterminate </h2>
         <div class="demo-container">
             <div class="demo-rendered padding-3">
                 <?php include('snippets/checkbox-indeterminate.php') ?>
@@ -50,12 +50,7 @@ $componentName = 'Checkboxes';
                 <pre data-src="snippets/checkbox-indeterminate-js.php" class="language-html" id="code4"></pre>
             </div>
         </div>
-        
-        
-        
-        
-        
-         <h2>Checkboxes - alternate markup <span class="badge alert">Custom work needed</span></h2>
+        <h2>Checkboxes - alternate markup </h2>
         <div class="demo-container">
             <div class="demo-rendered padding-3">
                 <?php include('snippets/checkbox-alternate.php') ?>
@@ -64,12 +59,7 @@ $componentName = 'Checkboxes';
                 <button class="button small primary" data-clipboard-target="#code4">Copy</button>
                 <pre data-src="snippets/checkbox-alternate.php" class="language-html" id="code4"></pre>
             </div>
-           
         </div>
-        
-        
-        
-        
     </div>
 </main>
 <?php include('includes/footer.php') ?>
