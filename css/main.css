@@ -5488,7 +5488,8 @@ ol.list-upper-roman {
     -webkit-font-smoothing: antialiased; }
 
 .button {
-  font-weight: bold; }
+  font-weight: bold;
+  text-decoration: none; }
   .button.small {
     height: 1.5rem;
     line-height: 1.1;
@@ -5496,8 +5497,18 @@ ol.list-upper-roman {
     padding: 0rem .5rem;
     font-size: 1rem; }
 
-.button-group .button {
+.rfd-button-group .button {
   margin-right: 1rem; }
+
+.button-group .button {
+  border-radius: 0px;
+  margin-right: -2px; }
+  .button-group .button:first-child {
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem; }
+  .button-group .button:last-child {
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem; }
 
 table,
 table.unstriped {
