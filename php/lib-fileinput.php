@@ -16,7 +16,7 @@ $componentName = 'File input';
     <div class="grid-container" id="mainContent">
         <h1 class="margin-bottom-3"> <?php echo $componentName; ?></h1>
         <p class="margin-bottom-3">The Rivet equvalent for this component is available <a href="https://rivet.uits.iu.edu/components/forms/file-input/" target="_blank">here</a> for comparison.</p>
-        <h2>Custom file input example <span class="badge alert">Custom work needed</span></h2>
+        <h2>Custom file input example </h2>
         <div class="demo-container">
             <div class="demo-rendered padding-3">
                 <?php include('snippets/fileinput.php') ?>
@@ -30,7 +30,7 @@ $componentName = 'File input';
                 <pre data-src="snippets/fileinput-js.php" class="language-js" id="code2"></pre>
             </div>
         </div>
-        <h2> File input variations <span class="badge alert">Custom work needed</span></h2>
+        <h2> File input variations </h2>
         <div class="demo-container">
             <div class="demo-rendered padding-3">
                 <?php include('snippets/fileinput-var.php') ?>

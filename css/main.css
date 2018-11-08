@@ -5938,6 +5938,18 @@ dl dt {
 .rbt-icon-users:before {
   content: "\e93c"; }
 
+.rbt-file {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap; }
+  .rbt-file input[type="file"] {
+    width: .1px;
+    height: .1px;
+    opacity: 0;
+    overflow: hidden; }
+  .rbt-file .rbt-file-preview {
+    margin-left: 1rem; }
+
 .tabs {
   border: none; }
   .tabs .tabs-title {

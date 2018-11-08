@@ -1,0 +1,15 @@
+.rbt-file {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  input[type="file"] {
+    width: .1px;
+    height: .1px;
+    opacity: 0;
+    overflow: hidden;
+  }
+  .rbt-file-preview {
+    margin-left: 1rem;
+  }
+}
+
