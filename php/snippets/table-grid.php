@@ -1,4 +1,4 @@
-<table class="table table-bordered">
+<table class="unstriped rfd-table-grid">
     <caption class="sr-only">
     Table example
     </caption>

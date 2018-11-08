@@ -7,15 +7,13 @@
       <change beforePath="$PROJECT_DIR$/css/demo.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/demo.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/includes/app-header.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/includes/app-header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-badges.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-badges.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/snippets/header-default.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/header-default.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/snippets/links.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/links.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/snippets/lists-plain.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/lists-plain.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/rbt/rbt-badges.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/rbt/rbt-badges.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/snippets/table-compact.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/table-compact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/snippets/table-grid.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/table-grid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/snippets/table-plain.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/table-plain.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/snippets/table-striped.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/table-striped.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/rbt/rbt-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/rbt/rbt-header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/rbt/rbt-mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/rbt/rbt-mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/rbt/rbt-typescale.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/rbt/rbt-typescale.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/rbt/rbt-lists.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/rbt/rbt-lists.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/rbt/rbt-tables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/rbt/rbt-tables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/rbt/rbt-variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/rbt/rbt-variables.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,17 +29,17 @@
       <file leaf-file-name="rbt-variables.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="181" column="34" lean-forward="true" selection-start-line="181" selection-start-column="34" selection-end-line="181" selection-end-column="34" />
+            <state relative-caret-position="144">
+              <caret line="878" selection-start-line="878" selection-end-line="878" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rbt-typescale.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-typescale.scss">
+      <file leaf-file-name="rbt-tables.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-tables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="441">
+              <caret line="54" column="53" selection-start-line="54" selection-start-column="53" selection-end-line="54" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -88,10 +86,12 @@
         <option value="$PROJECT_DIR$/scss/rbt/rbt-buttons.scss" />
         <option value="$PROJECT_DIR$/scss/rbt/rbt-userprofile.scss" />
         <option value="$PROJECT_DIR$/scss/rbt/rbt-mixins.scss" />
-        <option value="$PROJECT_DIR$/scss/rbt/rbt-header.scss" />
         <option value="$PROJECT_DIR$/scss/rbt/rbt-badges.scss" />
-        <option value="$PROJECT_DIR$/scss/rbt/rbt-variables.scss" />
         <option value="$PROJECT_DIR$/scss/rbt/rbt-typescale.scss" />
+        <option value="$PROJECT_DIR$/scss/rbt/rbt-lists.scss" />
+        <option value="$PROJECT_DIR$/scss/rbt/rbt-header.scss" />
+        <option value="$PROJECT_DIR$/scss/rbt/rbt-variables.scss" />
+        <option value="$PROJECT_DIR$/scss/rbt/rbt-tables.scss" />
       </list>
     </option>
   </component>
@@ -182,9 +182,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -268,12 +268,13 @@
       <workItem from="1541516035422" duration="11696000" />
       <workItem from="1541589905262" duration="1391000" />
       <workItem from="1541596066133" duration="3422000" />
-      <workItem from="1541619199811" duration="6083000" />
+      <workItem from="1541619199811" duration="6859000" />
+      <workItem from="1541685080175" duration="4874000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25678000" />
+    <option name="totallyTimeSpent" value="31328000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="23" y="36" width="1919" height="1084" extended-state="0" />
@@ -286,25 +287,25 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32949087" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32949087" />
       <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33817428" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26318595" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26584977" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32987553" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32987553" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,20 +315,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-buttons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2745">
-          <caret line="183" selection-start-line="183" selection-end-line="183" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/foundation-sites/scss/foundation.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -496,9 +483,6 @@
     <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-extra-imageupload.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-tabs.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-extra-inputgroup.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -607,13 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-badges.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -621,17 +598,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-variables.scss">
+    <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-typescale.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="181" column="34" lean-forward="true" selection-start-line="181" selection-start-column="34" selection-end-line="181" selection-end-column="34" />
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-typescale.scss">
+    <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-lists.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="49" column="34" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-tabs.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="878" selection-start-line="878" selection-end-line="878" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-tables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="54" column="53" selection-start-line="54" selection-start-column="53" selection-end-line="54" selection-end-column="53" />
         </state>
       </provider>
     </entry>

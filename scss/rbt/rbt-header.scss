@@ -44,6 +44,10 @@
           margin-left: 0;
           list-style: none;
           li {
+            display: block;
+            line-height: inherit;
+            font-size: inherit;
+            margin-right: inherit;
             a {
              padding: .2rem;
             }

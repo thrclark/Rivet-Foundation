@@ -1,4 +1,4 @@
-<table class="table rbt-table-plain">
+<table class="table rfd-table-plain">
     <caption class="sr-only">
     Table example
     </caption>

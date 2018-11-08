@@ -1,4 +1,4 @@
-<table class="table table-striped">
+<table class="table">
     <caption class="sr-only">
     Table example
     </caption>

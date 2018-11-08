@@ -1,4 +1,4 @@
-<table class="table table-sm">
+<table class="unstriped rfd-table-compact">
     <caption class="sr-only">
     Table example
     </caption>

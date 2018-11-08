@@ -2916,7 +2916,7 @@ table {
     background-color: #fefefe; }
 
   caption {
-    padding: 0.5rem 0.625rem 0.625rem;
+    padding: 1rem;
     font-weight: bold; }
 
   thead {
@@ -2934,13 +2934,13 @@ table {
   thead td,
   tfoot th,
   tfoot td {
-    padding: 0.5rem 0.625rem 0.625rem;
+    padding: 1rem;
     font-weight: bold;
     text-align: left; }
 
   tbody th,
   tbody td {
-    padding: 0.5rem 0.625rem 0.625rem; }
+    padding: 1rem; }
 
   tbody tr:nth-child(even) {
     border-bottom: 0;
@@ -5364,8 +5364,13 @@ ol.list-upper-roman {
       .rbt-app-header .menu .rfd-megamenu.is-open ul {
         margin-left: 0;
         list-style: none; }
-        .rbt-app-header .menu .rfd-megamenu.is-open ul li a {
-          padding: .2rem; }
+        .rbt-app-header .menu .rfd-megamenu.is-open ul li {
+          display: block;
+          line-height: inherit;
+          font-size: inherit;
+          margin-right: inherit; }
+          .rbt-app-header .menu .rfd-megamenu.is-open ul li a {
+            padding: .2rem; }
   .rbt-app-header a {
     text-decoration: none;
     color: #0a0a0a; }
@@ -5494,10 +5499,75 @@ ol.list-upper-roman {
 .button-group .button {
   margin-right: 1rem; }
 
+table,
+table.unstriped {
+  border: none; }
+  table thead,
+  table.unstriped thead {
+    background: #f7f7f7;
+    border: none;
+    border-bottom: 1px solid #dddddd; }
+  table tbody,
+  table.unstriped tbody {
+    border: none; }
+    table tbody tr,
+    table.unstriped tbody tr {
+      border-bottom: 1px solid #dddddd;
+      background-color: #fefefe; }
+      table tbody tr th,
+      table.unstriped tbody tr th {
+        font-weight: normal;
+        text-align: left; }
+
+tbody tr:nth-child(even) {
+  border-bottom: 1px solid #dddddd;
+  background-color: #f7f7f7; }
+
+.rfd-table-plain {
+  border: none; }
+  .rfd-table-plain thead {
+    background-color: #fefefe;
+    border: none;
+    border-bottom: none; }
+  .rfd-table-plain tbody {
+    border: none; }
+    .rfd-table-plain tbody tr {
+      border-bottom: none;
+      background-color: #fefefe; }
+      .rfd-table-plain tbody tr th {
+        font-weight: normal; }
+
+.rfd-table-compact th, .rfd-table-compact td {
+  padding: 0.5rem;
+  line-height: 1.2; }
+
+.rfd-table-grid {
+  border-top: 1px solid #dddddd !important; }
+  .rfd-table-grid th, .rfd-table-grid td {
+    border-right: 1px solid #dddddd; }
+    .rfd-table-grid th:first-child, .rfd-table-grid td:first-child {
+      border-left: 1px solid #dddddd; }
+
 strong a {
   text-decoration: none; }
   strong a:hover {
     text-decoration: underline; }
+
+ul li, ol li {
+  margin-top: .5rem; }
+
+.menu li {
+  display: inline-block;
+  line-height: 1;
+  font-size: 1rem;
+  margin-right: 1rem;
+  margin-bottom: .5rem; }
+
+dl dt {
+  margin-top: .5rem;
+  margin-bottom: 0rem; }
+  dl dt:first-child {
+    margin-top: 0rem; }
 
 .badge {
   font-size: 80% !important;
