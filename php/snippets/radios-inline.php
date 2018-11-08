@@ -1,3 +1,5 @@
- <input type="radio" name="pokemon" value="Red" id="pokemonRed" required><label for="pokemonRed">Red</label>
-    <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Blue</label>
-    <input type="radio" name="pokemon" value="Yellow" id="pokemonYellow"><label for="pokemonYellow">Yellow</label>
+
+<input type="radio" name="pokemon" value="Red" id="option1" required>
+<label for="option1">Option 1</label>
+<input type="radio" name="pokemon" value="Blue" id="option2">
+<label for="option2">Option 2</label>

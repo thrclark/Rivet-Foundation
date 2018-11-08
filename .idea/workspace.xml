@@ -6,9 +6,8 @@
       <change beforePath="$PROJECT_DIR$/css/demo.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/demo.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/demo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/demo.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/rbt/rbt-fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/rbt/rbt-fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/snippets/radios-inline.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/radios-inline.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/rbt/rbt-forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/rbt/rbt-forms.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +25,7 @@
             <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-variables.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="240">
-                  <caret line="135" selection-start-line="135" selection-end-line="135" selection-end-column="14" />
+                  <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -53,11 +52,20 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="demo.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="demo.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/demo.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="30">
                   <caret line="2" selection-start-line="2" selection-end-line="2" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="rbt-forms.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-forms.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="105">
+                  <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
                 </state>
               </provider>
             </entry>
@@ -121,6 +129,7 @@
         <option value="$PROJECT_DIR$/scss/rbt/rbt-fonts.scss" />
         <option value="$PROJECT_DIR$/scss/main.scss" />
         <option value="$PROJECT_DIR$/scss/demo.scss" />
+        <option value="$PROJECT_DIR$/scss/rbt/rbt-forms.scss" />
       </list>
     </option>
   </component>
@@ -303,15 +312,16 @@
       <workItem from="1541589905262" duration="1391000" />
       <workItem from="1541596066133" duration="3422000" />
       <workItem from="1541619199811" duration="6859000" />
-      <workItem from="1541685080175" duration="14258000" />
+      <workItem from="1541685080175" duration="14886000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40712000" />
+    <option name="totallyTimeSpent" value="41340000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="23" y="36" width="1919" height="1084" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -323,7 +333,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32949087" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.46161824" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.35684648" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11347896" />
@@ -349,9 +359,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/foundation-sites/scss/foundation.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/foundation-sites/scss/_global.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2970">
@@ -639,13 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="135" selection-start-line="135" selection-end-line="135" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-buttons.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -671,6 +671,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-forms.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
         </state>
       </provider>
     </entry>
