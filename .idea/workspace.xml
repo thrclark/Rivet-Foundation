@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9775706-070f-4790-a2b3-0685ce02f94a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/demo.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/demo.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/demo.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib-buttons.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-buttons.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/snippets/buttons-anchors.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/buttons-anchors.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/snippets/buttons-base.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/buttons-base.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/snippets/buttons-group.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/buttons-group.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/snippets/buttons-groupright.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/buttons-groupright.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/snippets/buttons-icons.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/buttons-icons.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/snippets/buttons-secondary.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/buttons-secondary.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/snippets/buttons-segmented-secondary.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/buttons-segmented-secondary.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/snippets/buttons-segmented-split.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/buttons-segmented-split.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/snippets/buttons-segmented.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/buttons-segmented.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/snippets/buttons-small.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/buttons-small.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/rbt/rbt-buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/rbt/rbt-buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/demo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/demo.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/rbt/rbt-fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/rbt/rbt-fonts.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,11 +35,38 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="rbt-buttons.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="rbt-buttons.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-buttons.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="300">
                   <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="rbt-fonts.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-fonts.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="561">
+                  <caret line="95" column="23" lean-forward="true" selection-start-line="95" selection-start-column="23" selection-end-line="95" selection-end-column="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="demo.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/scss/demo.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="30">
+                  <caret line="2" selection-start-line="2" selection-end-line="2" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scss/main.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
@@ -88,11 +105,8 @@
         <option value="$PROJECT_DIR$/scss/rbt/rbt-tables-responsive.scss" />
         <option value="$PROJECT_DIR$/scss/rbt/rbt-extra-imageupload.scss" />
         <option value="$PROJECT_DIR$/scss/rbt/rbt-extra-inputgroup.scss" />
-        <option value="$PROJECT_DIR$/scss/main.scss" />
         <option value="$PROJECT_DIR$/node_modules/foundation-sites/assets/foundation.scss" />
-        <option value="$PROJECT_DIR$/scss/demo.scss" />
         <option value="$PROJECT_DIR$/node_modules/foundation-sites/scss/components/_button.scss" />
-        <option value="$PROJECT_DIR$/scss/rbt/rbt-fonts.scss" />
         <option value="$PROJECT_DIR$/scss/demo/demostyles.scss" />
         <option value="$PROJECT_DIR$/scss/rbt/rbt-userprofile.scss" />
         <option value="$PROJECT_DIR$/scss/rbt/rbt-mixins.scss" />
@@ -104,6 +118,9 @@
         <option value="$PROJECT_DIR$/scss/rbt/rbt-variables.scss" />
         <option value="$PROJECT_DIR$/scss/rbt/rbt-tabs.scss" />
         <option value="$PROJECT_DIR$/scss/rbt/rbt-buttons.scss" />
+        <option value="$PROJECT_DIR$/scss/rbt/rbt-fonts.scss" />
+        <option value="$PROJECT_DIR$/scss/main.scss" />
+        <option value="$PROJECT_DIR$/scss/demo.scss" />
       </list>
     </option>
   </component>
@@ -146,6 +163,11 @@
               <item name="Rivet-Foundation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Rivet-Foundation" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Rivet-Foundation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rivet-Foundation" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Rivet-Foundation" type="b2602c69:ProjectViewProjectNode" />
@@ -281,12 +303,12 @@
       <workItem from="1541589905262" duration="1391000" />
       <workItem from="1541596066133" duration="3422000" />
       <workItem from="1541619199811" duration="6859000" />
-      <workItem from="1541685080175" duration="13617000" />
+      <workItem from="1541685080175" duration="14258000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40071000" />
+    <option name="totallyTimeSpent" value="40712000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="23" y="36" width="1919" height="1084" extended-state="0" />
@@ -301,7 +323,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32949087" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.1493776" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.46161824" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11347896" />
@@ -523,13 +545,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/foundation-sites/scss/components/_button.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="795">
@@ -544,20 +559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2970">
           <caret line="198" column="52" selection-start-line="198" selection-start-column="52" selection-end-line="198" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-fonts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/demo.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
         </state>
       </provider>
     </entry>
@@ -649,6 +650,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-fonts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="95" column="23" lean-forward="true" selection-start-line="95" selection-start-column="23" selection-end-line="95" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/demo.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>

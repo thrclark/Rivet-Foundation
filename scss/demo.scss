@@ -1,13 +1,14 @@
 
 
-
-
-
 /// Copyright 2018 Indiana University Research and Technology Corporation ///
 $rbt-font-path:  "../fonts";
+$rbt-font-version:  "1.0";
 
 //load Bootstrap variable overrides & custom variables
 @import "rbt/rbt-variables";
+
+
+
 
 //load mixins
 @import "rbt/rbt-mixins";
