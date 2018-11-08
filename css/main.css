@@ -3480,17 +3480,17 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
   float: left; }
   .tabs-title > a {
     display: block;
-    padding: 1.25rem 1.5rem;
-    font-size: 0.75rem;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
     line-height: 1;
     color: #006298; }
     [data-whatinput='mouse'] .tabs-title > a {
       outline: 0; }
     .tabs-title > a:hover {
-      background: #fefefe;
+      background: #006298;
       color: #005483; }
     .tabs-title > a:focus, .tabs-title > a[aria-selected='true'] {
-      background: #e6e6e6;
+      background: #006298;
       color: #006298; }
 
 .tabs-content {
@@ -5646,5 +5646,57 @@ dl dt {
   src: url("https://fonts.iu.edu/fonts/benton-sans-cond-bold-italic.eot?#iefix") format("embedded-opentype"), url("https://fonts.iu.edu/fonts/benton-sans-cond-bold-italic.woff") format("woff"), url("https://fonts.iu.edu/fonts/benton-sans-cond-bold-italic.ttf") format("truetype"), url("https://fonts.iu.edu/fonts/benton-sans-cond-bold-italic.svg#BentonSansCondBoldItalic") format("svg");
   font-style: normal;
   font-weight: normal; }
+.tabs {
+  border: none; }
+  .tabs .tabs-title {
+    margin-right: .5rem;
+    background: #eeeeee; }
+    .tabs .tabs-title:last-child {
+      margin-right: 0; }
+    .tabs .tabs-title.is-active a {
+      color: #fefefe;
+      border-top: 1px solid #006298;
+      border-right: 1px solid #006298;
+      border-left: 1px solid #006298; }
+    .tabs .tabs-title a {
+      text-decoration: none;
+      color: #666666;
+      border: 1px solid #cccccc;
+      border-top-right-radius: .25rem;
+      border-top-left-radius: .25rem;
+      text-align: center; }
+      .tabs .tabs-title a:hover {
+        color: #fefefe; }
+
+.tabs-content {
+  border: none; }
+  .tabs-content .tabs-panel {
+    border: 1px solid #cccccc;
+    border-bottom-right-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+    margin-top: -1px;
+    padding: 1.5rem;
+    transition: box-shadow .2s ease; }
+
+.rfd-tabs-fitted {
+  display: flex; }
+  .rfd-tabs-fitted .tabs-title {
+    flex-grow: 1; }
+
+.rfd-tabs-vertical {
+  border: 1px solid #cccccc; }
+  .rfd-tabs-vertical .tabs .tabs-title {
+    margin: 0; }
+    .rfd-tabs-vertical .tabs .tabs-title a {
+      border: none;
+      border-bottom: 1px solid #cccccc;
+      border-top-right-radius: 0;
+      border-top-left-radius: 0; }
+  .rfd-tabs-vertical .tabs-content {
+    background: transparent; }
+    .rfd-tabs-vertical .tabs-content .tabs-panel {
+      border: none; }
+  .rfd-tabs-vertical .cell:first-child {
+    border-right: 1px solid #cccccc; }
 
 /*# sourceMappingURL=main.css.map */

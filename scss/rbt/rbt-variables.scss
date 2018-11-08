@@ -1,3 +1,48 @@
+
+/////////////////////////
+
+// Base colors
+
+$color-white: #ffffff;
+$color-subtle-gray: #f7f7f7;
+$color-black: #333333;
+$color-black--50: #fafafa;
+$color-black--100: #eeeeee;
+$color-black--150: #eaeaea;
+$color-black--200: #dddddd;
+$color-black--300: #cccccc;
+$color-black--400: #aaaaaa;
+$color-black--500: #999999;
+$color-black--600: #777777;
+$color-black--700: #666666;
+$color-black--800: #555555;
+$color-black--900: #444444;
+
+// Use this when you need a default (darkest) black.
+$color-black--rich: #000000;
+
+$blue: #006298 !default;
+
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink: #e83e8c !default;
+$red: #df3603 !default;
+$orange: #fd7e14 !default;
+$yellow: #ffc107 !default;
+$green: #008a28 !default;
+$teal: #20c997 !default;
+$cyan: #17a2b8 !default;
+
+
+
+
+
+
+
+
+
+
+
 //  Foundation for Sites Settings
 //  -----------------------------
 //
@@ -795,11 +840,11 @@ $table-stack-breakpoint: medium;
 $tab-margin: 0;
 $tab-background: $white;
 $tab-color: $primary-color;
-$tab-background-active: $light-gray;
+$tab-background-active: $blue;
 $tab-active-color: $primary-color;
-$tab-item-font-size: rem-calc(12);
-$tab-item-background-hover: $white;
-$tab-item-padding: 1.25rem 1.5rem;
+$tab-item-font-size: rem-calc(16);
+$tab-item-background-hover: $blue;
+$tab-item-padding: .5rem 1.5rem;
 $tab-content-background: $white;
 $tab-content-border: $light-gray;
 $tab-content-color: $body-font-color;
@@ -866,36 +911,3 @@ $grid-container-padding: $grid-padding-gutters;
 $grid-container-max: $global-width;
 $xy-block-grid-max: 8;
 
-/////////////////////////
-
-// Base colors
-
-$color-white: #ffffff;
-$color-subtle-gray: #f7f7f7;
-$color-black: #333333;
-$color-black--50: #fafafa;
-$color-black--100: #eeeeee;
-$color-black--150: #eaeaea;
-$color-black--200: #dddddd;
-$color-black--300: #cccccc;
-$color-black--400: #aaaaaa;
-$color-black--500: #999999;
-$color-black--600: #777777;
-$color-black--700: #666666;
-$color-black--800: #555555;
-$color-black--900: #444444;
-
-// Use this when you need a default (darkest) black.
-$color-black--rich: #000000;
-
-$blue: #006298 !default;
-
-$indigo: #6610f2 !default;
-$purple: #6f42c1 !default;
-$pink: #e83e8c !default;
-$red: #df3603 !default;
-$orange: #fd7e14 !default;
-$yellow: #ffc107 !default;
-$green: #008a28 !default;
-$teal: #20c997 !default;
-$cyan: #17a2b8 !default;

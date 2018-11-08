@@ -1,0 +1,82 @@
+.tabs {
+  border: none;
+  .tabs-title {
+    margin-right: .5rem;
+    background: $color-black--100;
+    &:last-child {
+      margin-right: 0;
+    }
+    &.is-active {
+      a {
+        color: $white;
+        border-top: 1px solid $blue;
+        border-right: 1px solid $blue;
+        border-left: 1px solid $blue;
+
+      }
+
+
+    }
+    a {
+      text-decoration: none;
+      color: $color-black--700;
+      border: 1px solid $color-black--300;
+      border-top-right-radius: .25rem;
+      border-top-left-radius: .25rem;
+      text-align: center;
+      &:hover {
+        color: $white;
+      }
+
+
+    }
+
+  }
+}
+
+
+
+.tabs-content {
+  border: none;
+  .tabs-panel {
+    border: 1px solid $color-black--300;
+    border-bottom-right-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+    margin-top: -1px;
+    padding: 1.5rem;
+    transition: box-shadow .2s ease;
+
+  }
+}
+
+.rfd-tabs-fitted {
+  display: flex;
+  .tabs-title {
+    flex-grow: 1;
+  }
+}
+
+
+.rfd-tabs-vertical {
+  border: 1px solid $color-black--300;
+  .tabs {
+    .tabs-title {
+      margin: 0;
+      a {
+        border: none;
+        border-bottom: 1px solid $color-black--300;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+      }
+    }
+  }
+  .tabs-content {
+    background: transparent;
+    .tabs-panel {
+      border: none;
+    }
+  }
+  .cell:first-child {
+    border-right: 1px solid $color-black--300;
+  }
+}
