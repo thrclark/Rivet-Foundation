@@ -3,10 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="c9775706-070f-4790-a2b3-0685ce02f94a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/css/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/demo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/demo.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/demo.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/snippets/radios-inline.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/radios-inline.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/includes/app-header.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/includes/app-header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/lib-radiobuttons.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib-radiobuttons.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/snippets/radios-inline-alternate.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/radios-inline-alternate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/snippets/radios-stacked.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/snippets/radios-stacked.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/rbt/rbt-forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/rbt/rbt-forms.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,7 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.33834136">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="rbt-variables.scss" pinned="false" current-in-tab="true">
@@ -64,8 +65,11 @@
           <file leaf-file-name="rbt-forms.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-forms.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+                <state relative-caret-position="294">
+                  <caret line="70" column="27" lean-forward="true" selection-start-line="70" selection-start-column="27" selection-end-line="70" selection-end-column="27" />
+                  <folding>
+                    <element signature="e#2593#2785#0" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -312,16 +316,15 @@
       <workItem from="1541589905262" duration="1391000" />
       <workItem from="1541596066133" duration="3422000" />
       <workItem from="1541619199811" duration="6859000" />
-      <workItem from="1541685080175" duration="14886000" />
+      <workItem from="1541685080175" duration="15737000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41340000" />
+    <option name="totallyTimeSpent" value="42191000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="23" y="36" width="1919" height="1084" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -683,8 +686,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/rbt/rbt-forms.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        <state relative-caret-position="294">
+          <caret line="70" column="27" lean-forward="true" selection-start-line="70" selection-start-column="27" selection-end-line="70" selection-end-column="27" />
+          <folding>
+            <element signature="e#2593#2785#0" />
+          </folding>
         </state>
       </provider>
     </entry>

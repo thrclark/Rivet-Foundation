@@ -5598,6 +5598,51 @@ input[type="radio"] {
   input[type="radio"]:focus + label:before, input[type="radio"]:focus + input + label:before {
     box-shadow: 0 0 0 2px #006298, 0 0 1px 5px rgba(0, 98, 152, 0.5); }
 
+input[type="checkbox"] {
+  position: absolute;
+  left: -1rem;
+  opacity: 0; }
+  input[type="checkbox"] + label:before,
+  input[type="checkbox"] + input + label:before {
+    display: inline-block;
+    content: " ";
+    border-radius: 2px;
+    margin-right: .75rem;
+    width: 1rem;
+    height: 1rem;
+    box-shadow: 0 0 0 0.08rem #666666;
+    vertical-align: middle;
+    margin-top: -.1rem; }
+  input[type="checkbox"]:focus + label:before, input[type="checkbox"]:focus + input + label:before {
+    box-shadow: 0 0 0 0.08rem #666666, 0 0 0 0.1875rem #ffffff, 0 0 0 0.3125rem #006298; }
+  input[type="checkbox"]:checked + label:before, input[type="checkbox"]:checked + input + label:before {
+    color: #ffffff;
+    background-color: #006298;
+    box-shadow: 0 0 0 2px #006298;
+    font-family: rbt-fonts;
+    content: '\e90b';
+    font-size: 12px;
+    padding-left: 2px;
+    line-height: 1.4; }
+  input[type="checkbox"]:checked:focus + label:before, input[type="checkbox"]:checked:focus + input + label:before {
+    box-shadow: 0 0 0 0.08rem #006298, 0 0 0 0.1875rem #ffffff, 0 0 0 0.3125rem #006298; }
+  input[type="checkbox"]:disabled + label, input[type="checkbox"]:disabled + input + label {
+    color: #cccccc;
+    cursor: default; }
+    input[type="checkbox"]:disabled + label:before, input[type="checkbox"]:disabled + input + label:before {
+      background-color: #dddddd;
+      box-shadow: 0 0 0 2px #cccccc; }
+
+input[type="checkbox"]:indeterminate + label:before {
+  color: #ffffff;
+  background-color: #006298;
+  box-shadow: 0 0 0 2px #006298;
+  font-family: rbt-fonts;
+  content: '\e928';
+  font-size: 12px;
+  padding-left: 2px;
+  line-height: 1.4; }
+
 ul li, ol li {
   margin-top: .5rem; }
 

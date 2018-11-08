@@ -13,7 +13,7 @@
                     <ul class="menu  margin-right-3">
                         <li class="nav-item"> <a class="nav-link  <?php if ($componentName == 'About') { echo 'active'; } ?>" href="index.php">About</a> </li>
                         <li>
-                            <button class="" type="button" data-toggle="example-dropdown">Library</button>
+                            <button type="button" data-toggle="example-dropdown">Library</button>
                             <div class="dropdown-pane rfd-megamenu" id="example-dropdown" data-dropdown data-auto-focus="true">
                                 <div class="grid-container">
                                     <ul class="grid-x">
@@ -78,7 +78,7 @@
                         </li>
                         
                         <!--  <li>
-                    <button class="" type="button" data-toggle="example-dropdown">Toggle Dropdown</button>
+                    <button type="button" data-toggle="example-dropdown">Toggle Dropdown</button>
                     <div class="dropdown-pane" id="example-dropdown" data-dropdown data-auto-focus="true">
                        <ul class="grid-x">
                           

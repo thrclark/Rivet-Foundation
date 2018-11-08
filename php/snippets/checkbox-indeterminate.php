@@ -1,8 +1,8 @@
-<ul class="rbt-checkbox-hierarchy form-check">
+<ul class="rbt-checkbox-hierarchy form-check no-bullet">
     <li>
         <input class="form-check-input" type="checkbox" value="" id="hierarchy1">
         <label class="form-check-label" for="hierarchy1"> Parent option one </label>
-        <ul>
+        <ul class="margin-left-2 no-bullet">
             <li>
                 <input class="form-check-input" type="checkbox" value="" id="hierarchy2">
                 <label class="form-check-label" for="hierarchy2"> Child option one </label>

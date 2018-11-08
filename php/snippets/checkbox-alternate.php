@@ -1,6 +1,6 @@
 <fieldset>
     <legend class="rbt-ts-23 margin-bottom-3">Alternate markup (visually identical)</legend>
-    <ul class="pl-0">
+    <ul class="padding-left-0 no-bullet">
         <li class="form-check form-check-inline">
             <input class="form-check-input" type="checkbox" name="checkbox-demo" id="checkbox-9">
             <input type="hidden">

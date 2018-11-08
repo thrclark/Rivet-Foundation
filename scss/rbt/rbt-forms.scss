@@ -52,3 +52,69 @@ input[type="radio"] {
 
 }
 
+
+// checkboxes
+
+input[type="checkbox"] {
+  position: absolute;
+  left: -1rem;
+  opacity: 0;
+  + label:before,
+  + input+label:before {
+    display: inline-block;
+    content: " ";
+    border-radius: 2px;
+    margin-right: .75rem;
+    width: 1rem;
+    height: 1rem;
+    box-shadow: 0 0 0 0.08rem $color-black--700;
+    vertical-align: middle;
+    margin-top: -.1rem;
+  }
+  &:focus + label:before,
+  &:focus + input+label:before{
+    box-shadow: 0 0 0 0.08rem $color-black--700, 0 0 0 0.1875rem $color-white, 0 0 0 0.3125rem $blue;
+  }
+  &:checked + label:before,
+  &:checked + input+label:before  {
+    color: $color-white;
+    background-color: $blue;
+    box-shadow: 0 0 0 2px $blue;
+    font-family: rbt-fonts;
+    content: '\e90b';
+    font-size: 12px;
+    padding-left: 2px;
+    line-height: 1.4;
+  }
+
+  &:checked:focus + label:before,
+  &:checked:focus + input+label:before {
+    box-shadow: 0 0 0 0.08rem $blue, 0 0 0 0.1875rem #ffffff, 0 0 0 0.3125rem $blue;
+  }
+
+  &:disabled + label,
+  &:disabled + input+label{
+    color: $color-black--300;
+    cursor: default;
+    &:before {
+      background-color: $color-black--200;
+      box-shadow: 0 0 0 2px $color-black--300;
+    }
+  }
+
+}
+
+
+
+input[type="checkbox"]:indeterminate+label:before {
+
+  color: $color-white;
+  background-color: $blue;
+  box-shadow: 0 0 0 2px $blue;
+  font-family: rbt-fonts;
+  content: '\e928';
+  font-size: 12px;
+  padding-left: 2px;
+  line-height: 1.4;
+
+}
