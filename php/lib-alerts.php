@@ -13,12 +13,12 @@ $componentName = 'Alerts';
 <body>
 <?php include('includes/app-header.php') ?>
 <main>
-    <div class="container" id="mainContent">
-        <h1 class="margin-bottom-3"> <?php echo $componentName; ?></h1>
+       <div class="grid-container" id="mainContent">
+        <h1 class="margin-bottom-2"> <?php echo $componentName; ?></h1>
         <p class="margin-bottom-3">The Rivet equvalent for this component is available <a href="https://rivet.uits.iu.edu/components/overlays/alerts/" target="_blank">here</a> for comparison.</p>
         <h2>Alerts - page level</h2>
         <div class="demo-container">
-            <div class="demo-rendered padding-3">
+            <div class="demo-rendered padding-2">
                 <?php include('snippets/alerts-pagelevel.php') ?>
             </div>
             <div class="demo-code"> <small>HTML</small>
@@ -28,7 +28,7 @@ $componentName = 'Alerts';
         </div>
         <h2>Alerts list</h2>
         <div class="demo-container">
-            <div class="demo-rendered padding-3">
+            <div class="demo-rendered padding-2">
                 <?php include('snippets/alerts-list.php') ?>
             </div>
             <div class="demo-code"> <small>HTML</small>
@@ -38,7 +38,7 @@ $componentName = 'Alerts';
         </div>
         <h2>Alerts - standalone inline</h2>
         <div class="demo-container">
-            <div class="demo-rendered padding-3">
+            <div class="demo-rendered padding-2">
                 <?php include('snippets/alerts-standalone.php') ?>
             </div>
             <div class="demo-code"> <small>HTML</small>
@@ -46,10 +46,9 @@ $componentName = 'Alerts';
                 <pre data-src="snippets/alerts-standalone.php" class="language-html" id="code3"></pre>
             </div>
         </div>
-        <h2>Alerts - inline <span class="badge alert shadow">Custom work needed</span>
-</h2>
+        <h2>Alerts - inline <span class="badge alert shadow">Custom work needed</span> </h2>
         <div class="demo-container">
-            <div class="demo-rendered padding-3">
+            <div class="demo-rendered padding-2">
                 <?php include('snippets/alerts-inline.php') ?>
             </div>
             <div class="demo-code"> <small>HTML</small>

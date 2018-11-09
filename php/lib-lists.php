@@ -14,11 +14,11 @@ $componentName = 'Lists';
 <?php include('includes/app-header.php') ?>
 <main>
     <div class="grid-container" id="mainContent">
-            <h1 class="margin-bottom-3"> <?php echo $componentName; ?></h1>
+            <h1 class="margin-bottom-2"> <?php echo $componentName; ?></h1>
             <p class="margin-bottom-3">The Rivet equvalent for this component is available <a href="https://rivet.uits.iu.edu/components/page-content/lists/" target="_blank">here</a> for comparison.</p>
             <h2>Unordered list</h2>
             <div class="demo-container">
-                <div class="demo-rendered padding-3">
+                <div class="demo-rendered padding-2">
                     <?php include('snippets/lists-unordered.php') ?>
                 </div>
                 <div class="demo-code"> <small>HTML</small>
@@ -28,7 +28,7 @@ $componentName = 'Lists';
             </div>
             <h2>Ordered list</h2>
             <div class="demo-container">
-                <div class="demo-rendered padding-3">
+                <div class="demo-rendered padding-2">
                     <?php include('snippets/lists-ordered.php') ?>
                 </div>
                 <div class="demo-code"> <small>HTML</small>
@@ -38,7 +38,7 @@ $componentName = 'Lists';
             </div>
             <h2>Plain list</h2>
             <div class="demo-container">
-                <div class="demo-rendered padding-3">
+                <div class="demo-rendered padding-2">
                     <?php include('snippets/lists-plain.php') ?>
                 </div>
                 <div class="demo-code"> <small>HTML</small>
@@ -54,7 +54,7 @@ $componentName = 'Lists';
            
             <h2>Inline list</h2>
             <div class="demo-container">
-                <div class="demo-rendered padding-3">
+                <div class="demo-rendered padding-2">
                     <?php include('snippets/lists-inline.php') ?>
                 </div>
                 <div class="demo-code"> <small>HTML</small>
@@ -72,7 +72,7 @@ $componentName = 'Lists';
            
             <h2>Definition list</h2>
             <div class="demo-container">
-                <div class="demo-rendered padding-3">
+                <div class="demo-rendered padding-2">
                     <?php include('snippets/lists-definition.php') ?>
                 </div>
                 <div class="demo-code"> <small>HTML</small>
@@ -82,7 +82,7 @@ $componentName = 'Lists';
             </div>
             <h2>Definition list - columns</h2>
             <div class="demo-container">
-                <div class="demo-rendered padding-3">
+                <div class="demo-rendered padding-2">
                     <?php include('snippets/lists-definition-column.php') ?>
                 </div>
                 <div class="demo-code"> <small>HTML</small>

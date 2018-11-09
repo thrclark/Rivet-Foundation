@@ -1,3 +1,4 @@
- <label>Input Label
-          <input type="text" placeholder="">
-        </label>
+
+<label>Input Label
+    <input type="text" placeholder="">
+</label>

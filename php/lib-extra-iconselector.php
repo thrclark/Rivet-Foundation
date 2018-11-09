@@ -17,7 +17,7 @@ $componentName = 'Icon selector';
             <h2 class="margin-bottom-3"> <?php echo $componentName; ?> </h2>
            
             <div class="demo-container">
-                <div class="demo-rendered padding-3">
+                <div class="demo-rendered padding-2">
                     <?php include('snippets/iconselector.php') ?>
                 </div>
                 <div class="demo-code"> <small>HTML</small>

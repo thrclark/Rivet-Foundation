@@ -1,4 +1,4 @@
-<label>Select Menu
+<label>Select:
   <select>
     <option value="husker">Husker</option>
     <option value="starbuck">Starbuck</option>

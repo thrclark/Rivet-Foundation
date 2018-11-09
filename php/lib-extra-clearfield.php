@@ -18,7 +18,7 @@ $componentName = 'Clear field';
            
             <h3>Default</h3>
             <div class="demo-container">
-                <div class="demo-rendered padding-3">
+                <div class="demo-rendered padding-2">
                     <?php include('snippets/clear-field.php') ?>
                 </div>
                 <div class="demo-code"> <small>HTML</small>
@@ -32,7 +32,7 @@ $componentName = 'Clear field';
             </div>
             <h3> Input group</h3>
             <div class="demo-container">
-                <div class="demo-rendered padding-3">
+                <div class="demo-rendered padding-2">
                     <?php include('snippets/clear-field-inputgroup.php') ?>
                 </div>
                 <div class="demo-code"> <small>HTML</small>

@@ -17,7 +17,7 @@ $componentName = 'Sidebar navigation';
             <h2 class="margin-bottom-3"> <?php echo $componentName; ?> </h2>
             <h3>Default</h3>
             <div class="demo-container">
-                <div class="demo-rendered padding-3">
+                <div class="demo-rendered padding-2">
                     <?php include('snippets/sidebarnav.php') ?>
                 </div>
                 <div class="demo-code"> <small>HTML</small>
@@ -27,7 +27,7 @@ $componentName = 'Sidebar navigation';
             </div>
             <h3>Headers</h3>
             <div class="demo-container">
-                <div class="demo-rendered padding-3">
+                <div class="demo-rendered padding-2">
                     <?php include('snippets/sidebarnav-headers.php') ?>
                 </div>
                 <div class="demo-code"> <small>HTML</small>
@@ -37,7 +37,7 @@ $componentName = 'Sidebar navigation';
             </div>
             <h3>Dividers</h3>
             <div class="demo-container">
-                <div class="demo-rendered padding-3">
+                <div class="demo-rendered padding-2">
                     <?php include('snippets/sidebarnav-dividers.php') ?>
                 </div>
                 <div class="demo-code"> <small>HTML</small>

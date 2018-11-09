@@ -14,11 +14,11 @@ $componentName = 'Text inputs';
 <?php include('includes/app-header.php') ?>
 <main>
     <div class="grid-container" id="mainContent">
-            <h1 class="margin-bottom-3"> <?php echo $componentName; ?></h1>
+            <h1 class="margin-bottom-2"> <?php echo $componentName; ?></h1>
             <p class="margin-bottom-3">The Rivet equvalent for this component is available <a href="https://rivet.uits.iu.edu/components/forms/text-input/" target="_blank">here</a> for comparison.</p>
             <h2>Text input example</h2>
             <div class="demo-container">
-                <div class="demo-rendered padding-3">
+                <div class="demo-rendered padding-2">
                     <?php include('snippets/text-input.php') ?>
                 </div>
                 <div class="demo-code"> <small>HTML</small>
@@ -28,7 +28,7 @@ $componentName = 'Text inputs';
             </div>
             <h2>Text input - validation</h2>
             <div class="demo-container">
-                <div class="demo-rendered padding-3">
+                <div class="demo-rendered padding-2">
                     <?php include('snippets/text-input-validation.php') ?>
                 </div>
                 <div class="demo-code"> <small>HTML</small>
@@ -38,7 +38,7 @@ $componentName = 'Text inputs';
             </div>
             <h2>Textarea example</h2>
             <div class="demo-container">
-                <div class="demo-rendered padding-3">
+                <div class="demo-rendered padding-2">
                     <?php include('snippets/text-area.php') ?>
                 </div>
                 <div class="demo-code"> <small>HTML</small>
@@ -48,7 +48,7 @@ $componentName = 'Text inputs';
             </div>
             <h2>Text area - validation</h2>
             <div class="demo-container">
-                <div class="demo-rendered padding-3">
+                <div class="demo-rendered padding-2">
                     <?php include('snippets/text-area-validation.php') ?>
                 </div>
                 <div class="demo-code"> <small>HTML</small>

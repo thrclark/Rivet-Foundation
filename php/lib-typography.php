@@ -13,7 +13,7 @@ $componentName = 'Typography';
 <?php include('includes/app-header.php') ?>
 <main>
     <div class="grid-container" id="mainContent">
-        <h1 class="margin-bottom-3"> <?php echo $componentName; ?></h1>
+        <h1 class="margin-bottom-2"> <?php echo $componentName; ?></h1>
         <p class="margin-bottom-3">The Rivet equvalent for this component is available <a href="https://rivet.uits.iu.edu/components/layout/typography/" target="_blank">here</a> for comparison.</p>
         <table class="table">
             <caption class="sr-only">
@@ -111,7 +111,7 @@ $componentName = 'Typography';
         </table>
         <h2>Type scale aliases</h2>
         <div class="demo-container">
-            <div class="demo-rendered padding-3">
+            <div class="demo-rendered padding-2">
                 <?php include('snippets/typography-aliases.php') ?>
             </div>
             <div class="demo-code"> <small>HTML</small>
@@ -121,7 +121,7 @@ $componentName = 'Typography';
         </div>
         <h2> Responsive type</h2>
         <div class="demo-container">
-            <div class="demo-rendered padding-3">
+            <div class="demo-rendered padding-2">
                 <?php include('snippets/typography-responsive.php') ?>
             </div>
             <div class="demo-code"> <small>HTML</small>

@@ -17,7 +17,7 @@ $componentName = 'Date picker';
             <h2 class="margin-bottom-3"> <?php echo $componentName; ?> </h2>
             <p>Note - this component is sourced from <a href="https://valor-software.com/ngx-bootstrap/#/datepicker" target="_blank">NGX Bootstrap</a>, and is shown here for styling purposes.</p>
             <div class="demo-container">
-                <div class="demo-rendered padding-3">
+                <div class="demo-rendered padding-2">
                     <?php include('snippets/datepicker.php') ?>
                 </div>
                 <div class="demo-code"> <small>HTML</small>

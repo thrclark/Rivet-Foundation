@@ -14,11 +14,11 @@ $componentName = 'Buttons';
 <?php include('includes/app-header.php') ?>
 <main>
     <div class="grid-container" id="mainContent">
-        <h1 class="margin-bottom-3"> <?php echo $componentName; ?></h1>
+        <h1 class="margin-bottom-2"> <?php echo $componentName; ?></h1>
         <p class="margin-bottom-3">The Rivet equvalent for this component is available <a href="https://rivet.uits.iu.edu/components/forms/buttons/" target="_blank">here</a> for comparison.</p>
         <h2>Button examples</h2>
         <div class="demo-container">
-            <div class="demo-rendered padding-3">
+            <div class="demo-rendered padding-2">
                 <?php include('snippets/buttons-base.php') ?>
             </div>
             <div class="demo-code"> <small>HTML</small>
@@ -28,7 +28,7 @@ $componentName = 'Buttons';
         </div>
         <h2>Secondary variations</h2>
         <div class="demo-container">
-            <div class="demo-rendered padding-3">
+            <div class="demo-rendered padding-2">
                 <?php include('snippets/buttons-secondary.php') ?>
             </div>
             <div class="demo-code"> <small>HTML</small>
@@ -38,7 +38,7 @@ $componentName = 'Buttons';
         </div>
         <h2>Small buttons</h2>
         <div class="demo-container">
-            <div class="demo-rendered padding-3">
+            <div class="demo-rendered padding-2">
                 <?php include('snippets/buttons-small.php') ?>
             </div>
             <div class="demo-code"> <small>HTML</small>
@@ -48,7 +48,7 @@ $componentName = 'Buttons';
         </div>
         <h2>Full width buttons</h2>
         <div class="demo-container">
-            <div class="demo-rendered padding-3">
+            <div class="demo-rendered padding-2">
                 <?php include('snippets/buttons-fullwidth.php') ?>
             </div>
             <div class="demo-code"> <small>HTML</small>
@@ -58,7 +58,7 @@ $componentName = 'Buttons';
         </div>
         <h2>Using icons inside buttons</h2>
         <div class="demo-container">
-            <div class="demo-rendered padding-3">
+            <div class="demo-rendered padding-2">
                 <?php include('snippets/buttons-icons.php') ?>
             </div>
             <div class="demo-code"> <small>HTML</small>
@@ -68,7 +68,7 @@ $componentName = 'Buttons';
         </div>
         <h2>Button groups </h2>
         <div class="demo-container">
-            <div class="demo-rendered padding-3">
+            <div class="demo-rendered padding-2">
                 <?php include('snippets/buttons-group.php') ?>
             </div>
             <div class="demo-code"> <small>HTML</small>
@@ -78,7 +78,7 @@ $componentName = 'Buttons';
         </div>
         <h2>Button groups - right </h2>
         <div class="demo-container">
-            <div class="demo-rendered padding-3">
+            <div class="demo-rendered padding-2">
                 <?php include('snippets/buttons-groupright.php') ?>
             </div>
             <div class="demo-code"> <small>HTML</small>
@@ -88,7 +88,7 @@ $componentName = 'Buttons';
         </div>
         <h2>Button anchors</h2>
         <div class="demo-container">
-            <div class="demo-rendered padding-3">
+            <div class="demo-rendered padding-2">
                 <?php include('snippets/buttons-anchors.php') ?>
             </div>
             <div class="demo-code"> <small>HTML</small>

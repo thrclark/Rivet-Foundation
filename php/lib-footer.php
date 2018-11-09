@@ -14,11 +14,11 @@ $componentName = 'Footer';
 <?php include('includes/app-header.php') ?>
 <main>
     <div class="grid-container" id="mainContent">
-        <h1 class="margin-bottom-3"> <?php echo $componentName; ?>
+        <h1 class="margin-bottom-2"> <?php echo $componentName; ?>
 </h1>
         <p class="margin-bottom-3">The Rivet equvalent for this component is available <a href="https://rivet.uits.iu.edu/components/navigation/footer/" target="_blank">here</a> for comparison.</p>
         <div class="demo-container">
-            <div class="demo-rendered padding-3">
+            <div class="demo-rendered padding-2">
                <a href="lib-footer-fp.php" target="_blank" class="btn btn-primary">View demo</a>
             </div>
             <div class="demo-code"> <small>HTML</small>

@@ -3,6 +3,11 @@ input[type="radio"] {
   position: absolute;
   left: -1em;
   opacity: 0;
+  + label,
+  + input + label{
+    font-weight:normal ;
+    font-size: 1rem;
+  }
   + label:before,
   + input+label:before {
     box-shadow: 0 0 0 0.08rem $color-black--700;
@@ -59,6 +64,11 @@ input[type="checkbox"] {
   position: absolute;
   left: -1rem;
   opacity: 0;
+  + label,
+  + input + label{
+    font-weight:normal ;
+    font-size: 1rem;
+  }
   + label:before,
   + input+label:before {
     display: inline-block;
@@ -116,8 +126,16 @@ input[type="checkbox"]:indeterminate+label:before {
 
 }
 
+.rfd-checkbox-stacked {
+  margin-bottom: .5rem;
+}
 
 
+.rfd-checkbox-hierarchy {
+  li {
+    margin-bottom: .5rem;
+  }
+}
 
 // dropdowns
 
@@ -131,4 +149,17 @@ select {
   background-repeat: no-repeat;
   padding-left: 0.5rem;
 
+}
+
+ label > select,
+label > input[type="text"],
+label > textarea,
+ label + select,
+ label + input[type="text"],
+ label + textarea{
+  margin-top: .5rem;
+}
+
+label {
+  font-weight: bold;
 }

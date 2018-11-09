@@ -18,7 +18,7 @@ $componentName = 'Rich text editor';
         <h2 class="margin-bottom-3"> <?php echo $componentName; ?> </h2>
         <p> Based on the <a href="https://github.com/sparksuite/simplemde-markdown-editor" target="_blank">simplemde</a> rich text editor plugin. Relies on Font Awesome v4.7 icon fonts.</p>
         <div class="demo-container">
-            <div class="demo-rendered padding-3">
+            <div class="demo-rendered padding-2">
                 <?php include('snippets/richtext.php') ?>
             </div>
             <div class="demo-code"> <small>HTML</small>

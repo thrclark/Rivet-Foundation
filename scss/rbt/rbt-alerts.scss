@@ -1,0 +1,73 @@
+.callout {
+  border:none;
+  border-left: 0.25rem solid;
+  margin-bottom: 0px;
+  .rfd-alert-heading {
+    @extend .ts-18;
+    margin-bottom: 0.25rem;
+    font-weight: 700;
+    //color: red;
+
+  }
+  p {
+    margin: 0px;
+    font-size: .875rem;
+  }
+
+
+  &.rbt-alert-list {
+    margin-bottom: .5rem;
+  }
+
+  [class^="rbt-icon-"] {
+    display: inline-block;
+    vertical-align: middle;
+    //color: $red;
+    margin-right: 5px;
+    margin-left: 4px;
+    font-size: 16px;
+    margin-top: 0px;
+  }
+  /**
+ * Alert modifiers
+ */
+
+  &.primary {
+    background-color: $color-alert-blue-light;
+    border-left-color: $color-alert-blue;
+    color: $color-alert-blue-text;
+    [class^="rbt-icon-"] {
+      color: $color-alert-blue;
+    }
+  }
+
+  &.success {
+    background-color: $color-alert-green-light;
+    border-left-color: $color-alert-green;
+    color: $color-alert-green-text;
+    [class^="rbt-icon-"] {
+      color: $color-alert-green;
+    }
+
+  }
+
+  &.warning {
+    background-color: $color-alert-yellow-light;
+    border-left-color: $color-alert-yellow;
+    color: $color-alert-yellow-text;
+    [class^="rbt-icon-"] {
+      color: $color-alert-yellow;
+    }
+  }
+
+  &.alert {
+    background-color: $color-alert-orange-light;
+    border-left-color: $color-alert-orange;
+    color: $color-alert-orange-text;
+    [class^="rbt-icon-"] {
+      color: $color-alert-orange;
+    }
+  }
+}
+
+

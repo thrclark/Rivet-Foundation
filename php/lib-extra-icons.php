@@ -17,7 +17,7 @@ $componentName = 'Icons';
         <h2 class="margin-bottom-3"> <?php echo $componentName; ?> </h2>
         <p> Note - the icons found here are taken from the <a href="https://github.iu.edu/UITS/rivet-icons" target="_blank">Experimental Rivet Icon set</a>, and will likely change over time. Other icon sets (i.e FontAwesome, Icomoon, etc.) may be manually added to your projects as needed.</p>
         <div class="demo-container">
-            <div class="demo-rendered padding-3">
+            <div class="demo-rendered padding-2">
                 <?php include('snippets/icons.php') ?>
             </div>
             <div class="demo-code"> <small>HTML</small>

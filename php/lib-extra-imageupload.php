@@ -17,7 +17,7 @@ $componentName = 'Image uploader';
             <h2 class="margin-bottom-3"> <?php echo $componentName; ?> </h2>
             <h3> Populated state</h3>
             <div class="demo-container">
-                <div class="demo-rendered padding-3">
+                <div class="demo-rendered padding-2">
                     <?php include('snippets/imageupload.php') ?>
                 </div>
                 <div class="demo-code"> <small>HTML</small>
@@ -28,7 +28,7 @@ $componentName = 'Image uploader';
             <h3> Populated state - checkerboard</h3>
             <p> Note - the checkerboard background styling is useful in instances where transparent images may be uploaded, allowing the transparant regions to be more easily visible.</p>
             <div class="demo-container">
-                <div class="demo-rendered padding-3">
+                <div class="demo-rendered padding-2">
                     <?php include('snippets/imageupload-checkerboard.php') ?>
                 </div>
                 <div class="demo-code"> <small>HTML</small>
@@ -38,7 +38,7 @@ $componentName = 'Image uploader';
             </div>
             <h3> Empty state</h3>
             <div class="demo-container">
-                <div class="demo-rendered padding-3">
+                <div class="demo-rendered padding-2">
                     <?php include('snippets/imageupload-empty.php') ?>
                 </div>
                 <div class="demo-code"> <small>HTML</small>
@@ -48,7 +48,7 @@ $componentName = 'Image uploader';
             </div>
             <h3> Image upload messaging</h3>
             <div class="demo-container">
-                <div class="demo-rendered padding-3">
+                <div class="demo-rendered padding-2">
                     <?php include('snippets/imageupload-spinner.php') ?>
                 </div>
                 <div class="demo-code"> <small>HTML</small>

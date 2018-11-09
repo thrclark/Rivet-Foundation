@@ -14,7 +14,7 @@ $componentName = 'Text';
 <?php include('includes/app-header.php') ?>
 <main>
     <div class="grid-container" id="mainContent">
-            <h1 class="margin-bottom-3"> <?php echo $componentName; ?></h1>
+            <h1 class="margin-bottom-2"> <?php echo $componentName; ?></h1>
             <p class="margin-bottom-3">The Rivet equvalent for this component is available <a href="https://rivet.uits.iu.edu/components/utilities/text/" target="_blank">here</a> for comparison.</p>
             <p>Rivet-Bootstrap fully utilizes the Bootstrap text utilities without any modifications. For full documentation and code examples, please refer to the <a href="https://getbootstrap.com/docs/4.0/utilities/text/" target="_blank">Bootstrap text documentation</a>.</p>
         </div>

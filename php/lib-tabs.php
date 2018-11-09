@@ -17,7 +17,7 @@ $componentName = 'Tabs';
 <h2 class="margin-bottom-3"> <?php echo $componentName; ?> </h2>
 <h3>Tabs - default</h3>
 <div class="demo-container">
-<div class="demo-rendered padding-3">
+<div class="demo-rendered padding-2">
     <?php include('snippets/tabs-default.php') ?>
         </div>
         <div class="demo-code"> <small>HTML</small>
@@ -31,7 +31,7 @@ $componentName = 'Tabs';
     </div>
     <h3>Tabs - fitted </h3>
     <div class="demo-container">
-        <div class="demo-rendered padding-3">
+        <div class="demo-rendered padding-2">
             <?php include('snippets/tabs-fitted.php') ?>
         </div>
         <div class="demo-code"> <small>HTML</small>
@@ -41,7 +41,7 @@ $componentName = 'Tabs';
     </div>
     <h3>Tabs - vertical</h3>
     <div class="demo-container">
-        <div class="demo-rendered padding-3">
+        <div class="demo-rendered padding-2">
             <?php include('snippets/tabs-vertical.php') ?>
         </div>
         <div class="demo-code"> <small>HTML</small>

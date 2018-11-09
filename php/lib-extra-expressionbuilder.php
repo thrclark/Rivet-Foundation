@@ -19,7 +19,7 @@ $componentName = 'Expression builder';
         <h3>Create expression</h3>
         
         <div class="demo-container">
-            <div class="demo-rendered padding-3">
+            <div class="demo-rendered padding-2">
                 <?php include('snippets/expressionbuilder.php') ?>
             </div>
             <div class="demo-code"> <small>HTML</small>
@@ -36,7 +36,7 @@ $componentName = 'Expression builder';
         <h3>Read-only expression</h3>
         
           <div class="demo-container">
-            <div class="demo-rendered padding-3">
+            <div class="demo-rendered padding-2">
                 <?php include('snippets/expressionbuilder-readonly.php') ?>
             </div>
             <div class="demo-code"> <small>HTML</small>

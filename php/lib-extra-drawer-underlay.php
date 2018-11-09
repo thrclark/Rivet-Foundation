@@ -16,7 +16,7 @@ $componentName = 'Drawer underlay';
     <div class="grid-container" id="mainContent">
             <h2 class="margin-bottom-3"> <?php echo $componentName; ?> </h2>
             <div class="demo-container">
-                <div class="demo-rendered padding-3"> View this demo <a href="lib-extra-drawer-underlay-demo.php" target="_blank">here</a>. </div>
+                <div class="demo-rendered padding-2"> View this demo <a href="lib-extra-drawer-underlay-demo.php" target="_blank">here</a>. </div>
                 <div class="demo-code"> <small>HTML</small>
                     <button class="button small primary" data-clipboard-target="#code1">Copy</button>
                     <pre data-src="snippets/header-drawer-underlay.php" class="language-html" id="code1"></pre>

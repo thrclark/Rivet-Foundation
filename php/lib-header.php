@@ -14,11 +14,11 @@ $componentName = 'Header';
 <?php include('includes/app-header.php') ?>
 <main>
     <div class="grid-container" id="mainContent">
-        <h1 class="margin-bottom-3"> <?php echo $componentName; ?>  </h1>
+        <h1 class="margin-bottom-2"> <?php echo $componentName; ?>  </h1>
         <p class="margin-bottom-3">The Rivet equvalent for this component is available <a href="https://rivet.uits.iu.edu/components/navigation/header/" target="_blank">here</a> for comparison.</p>
         <h2>Base header</h2>
         <div class="demo-container">
-            <div class="demo-rendered padding-3">
+            <div class="demo-rendered padding-2">
                 <?php include('snippets/header-default.php') ?>
             </div>
             <div class="demo-code"> <small>HTML</small>
@@ -28,7 +28,7 @@ $componentName = 'Header';
         </div>
         <h2>Header with identity menu</h2>
         <div class="demo-container">
-            <div class="demo-rendered padding-3">
+            <div class="demo-rendered padding-2">
                 <?php include('snippets/header-identity.php') ?>
             </div>
             <div class="demo-code"> <small>HTML</small>
@@ -38,7 +38,7 @@ $componentName = 'Header';
         </div>
         <h2>Header with nav &amp; drawer</h2>
         <div class="demo-container">
-            <div class="demo-rendered padding-3"> View this demo <a href="lib-header-drawer.php" target="_blank">here</a>. To view the drawer functionality, resize your viewport to less than 992px. </div>
+            <div class="demo-rendered padding-2"> View this demo <a href="lib-header-drawer.php" target="_blank">here</a>. To view the drawer functionality, resize your viewport to less than 992px. </div>
             <div class="demo-code"> <small>HTML</small>
                 <button class="button small primary" data-clipboard-target="#code3">Copy</button>
                 <pre data-src="snippets/header-mainnav.php" class="language-html" id="code3"></pre>
@@ -50,7 +50,7 @@ $componentName = 'Header';
         </div>
         <h2>Header with light background</h2>
         <div class="demo-container" style="background-color:#FAFAFA">
-            <div class="demo-rendered padding-3">
+            <div class="demo-rendered padding-2">
                 <?php include('snippets/header-light.php') ?>
             </div>
             <div class="demo-code"> <small>HTML</small>

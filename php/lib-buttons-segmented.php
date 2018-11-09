@@ -14,11 +14,11 @@ $componentName = 'Segmented buttons';
 <?php include('includes/app-header.php') ?>
 <main>
     <div class="grid-container" id="mainContent">
-        <h1 class="margin-bottom-3"> <?php echo $componentName; ?></h1>
+        <h1 class="margin-bottom-2"> <?php echo $componentName; ?></h1>
         <p class="margin-bottom-3">The Rivet equvalent for this component is available <a href="https://rivet.uits.iu.edu/components/forms/buttons-segmented/" target="_blank">here</a> for comparison.</p>
         <h2>Segmented button examples</h2>
         <div class="demo-container">
-            <div class="demo-rendered padding-3">
+            <div class="demo-rendered padding-2">
                 <?php include('snippets/buttons-segmented.php') ?>
             </div>
             <div class="demo-code"> <small>HTML</small>
@@ -28,7 +28,7 @@ $componentName = 'Segmented buttons';
         </div>
         <h2>Segmented button - secondary</h2>
         <div class="demo-container">
-            <div class="demo-rendered padding-3">
+            <div class="demo-rendered padding-2">
                 <?php include('snippets/buttons-segmented-secondary.php') ?>
             </div>
             <div class="demo-code"> <small>HTML</small>
@@ -38,7 +38,7 @@ $componentName = 'Segmented buttons';
         </div>
         <h2>Segmented button - fitted</h2>
         <div class="demo-container">
-            <div class="demo-rendered padding-3">
+            <div class="demo-rendered padding-2">
                 <?php include('snippets/buttons-segmented-fitted.php') ?>
             </div>
             <div class="demo-code"> <small>HTML</small>
@@ -48,7 +48,7 @@ $componentName = 'Segmented buttons';
         </div>
         <h2> Using segmented buttons with dropdowns  </h2>
         <div class="demo-container">
-            <div class="demo-rendered padding-3">
+            <div class="demo-rendered padding-2">
                 <?php include('snippets/buttons-segmented-split.php') ?>
             </div>
             <div class="demo-code"> <small>HTML</small>

@@ -14,11 +14,11 @@ $componentName = 'Radio buttons';
 <?php include('includes/app-header.php') ?>
 <main>
     <div class="grid-container" id="mainContent">
-        <h1 class="margin-bottom-3"> <?php echo $componentName; ?></h1>
+        <h1 class="margin-bottom-2"> <?php echo $componentName; ?></h1>
         <p class="margin-bottom-3">The Rivet equvalent for this component is available <a href="https://rivet.uits.iu.edu/components/forms/radio-buttons/" target="_blank">here</a> for comparison.</p>
         <h2>Radios - inline </h2>
         <div class="demo-container">
-            <div class="demo-rendered padding-3">
+            <div class="demo-rendered padding-2">
                 <?php include('snippets/radios-inline.php') ?>
             </div>
             <div class="demo-code"> <small>HTML</small>
@@ -28,7 +28,7 @@ $componentName = 'Radio buttons';
         </div>
         <h2>Radios - stacked </h2>
         <div class="demo-container">
-            <div class="demo-rendered padding-3">
+            <div class="demo-rendered padding-2">
                 <?php include('snippets/radios-stacked.php') ?>
             </div>
             <div class="demo-code"> <small>HTML</small>
@@ -38,7 +38,7 @@ $componentName = 'Radio buttons';
         </div>
         <h2>Radios - alternate markup </h2>
         <div class="demo-container">
-            <div class="demo-rendered padding-3">
+            <div class="demo-rendered padding-2">
                 <?php include('snippets/radios-inline-alternate.php') ?>
             </div>
             <div class="demo-code"> <small>HTML</small>

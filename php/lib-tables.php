@@ -14,11 +14,11 @@ $componentName = 'Tables';
 <?php include('includes/app-header.php') ?>
 <main>
     <div class="grid-container" id="mainContent">
-        <h1 class="margin-bottom-3"> <?php echo $componentName; ?></h1>
+        <h1 class="margin-bottom-2"> <?php echo $componentName; ?></h1>
         <p class="margin-bottom-3">The Rivet equvalent for this component is available <a href="https://rivet.uits.iu.edu/components/page-content/tables/" target="_blank">here</a> for comparison.</p>
         <h2>Default table</h2>
         <div class="demo-container">
-            <div class="demo-rendered padding-3">
+            <div class="demo-rendered padding-2">
                 <?php include('snippets/table-default.php') ?>
             </div>
             <div class="demo-code"> <small>HTML</small>
@@ -28,7 +28,7 @@ $componentName = 'Tables';
         </div>
         <h2>Striped table</h2>
         <div class="demo-container">
-            <div class="demo-rendered padding-3">
+            <div class="demo-rendered padding-2">
                 <?php include('snippets/table-striped.php') ?>
             </div>
             <div class="demo-code"> <small>HTML</small>
@@ -38,7 +38,7 @@ $componentName = 'Tables';
         </div>
         <h2>Plain table </h2>
         <div class="demo-container">
-            <div class="demo-rendered padding-3">
+            <div class="demo-rendered padding-2">
                 <?php include('snippets/table-plain.php') ?>
             </div>
             <div class="demo-code"> <small>HTML</small>
@@ -48,7 +48,7 @@ $componentName = 'Tables';
         </div>
         <h2> Compact table </h2>
         <div class="demo-container">
-            <div class="demo-rendered padding-3">
+            <div class="demo-rendered padding-2">
                 <?php include('snippets/table-compact.php') ?>
             </div>
             <div class="demo-code"> <small>HTML</small>
@@ -58,7 +58,7 @@ $componentName = 'Tables';
         </div>
         <h3>Cells table variant </h3>
         <div class="demo-container">
-            <div class="demo-rendered padding-3">
+            <div class="demo-rendered padding-2">
                 <?php include('snippets/table-grid.php') ?>
             </div>
             <div class="demo-code"> <small>HTML</small>

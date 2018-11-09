@@ -33,3 +33,75 @@
     }
   }
 }
+
+
+.button {
+
+  .primary:focus,
+  .hollow.primary:focus,
+  .btn-link:focus,
+  .btn-outline-link:focus{
+    box-shadow: 0 0 0 0.125rem $color-white, 0 0 0 0.2875rem $blue !important;
+  }
+
+  .success:focus,
+  .hollow.success:focus {
+    box-shadow: 0 0 0 0.125rem $color-white, 0 0 0 0.2875rem $green !important;
+  }
+
+  .alert:focus,
+  .hollow.alert:focus {
+    box-shadow: 0 0 0 0.125rem $color-white, 0 0 0 0.2875rem $red !important;
+  }
+
+  //this is hacky...
+  .hollow.primary:hover {
+    background: #cce0ea;
+    color: $blue;
+  }
+
+
+  .button.hollow.success:hover {
+    background-color: #d9eddf;
+    color: $green;
+  }
+
+
+
+  .button.hollow.alert:hover {
+    background-color: #fae1d9;
+    border-color: #df3603;
+    color: #df3603;
+  }
+
+
+  .btn.btn-link:hover {
+    background: #cce0ea;
+  }
+
+  .btn.btn-link {
+    text-decoration: none;
+  }
+
+  button:disabled, button:disabled:hover,
+  .button:disabled,
+  .button:disabled:hover,
+  .rvt-button:disabled,
+  .rvt-button:disabled:hover,
+  .btn.disabled{
+    background-color: #eeeeee !important;
+    color: #666666!important;
+    border-color: #aaaaaa !important;
+    cursor: not-allowed !important;
+    opacity: 1 !important;
+  }
+
+  button:disabled.rbt-btn-progress {
+    background-color: $blue !important;
+    color: $color-white !important;
+    border-color: $blue !important;
+    cursor: not-allowed !important;
+    opacity: 1 !important;
+  }
+
+}
