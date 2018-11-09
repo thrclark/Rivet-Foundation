@@ -56,7 +56,7 @@ $componentName = 'Buttons';
                 <pre data-src="snippets/buttons-fullwidth.php" class="language-html" id="code8"></pre>
             </div>
         </div>
-        <h2>Using icons inside buttons <span class="badge alert">Custom work needed</span></h2>
+        <h2>Using icons inside buttons</h2>
         <div class="demo-container">
             <div class="demo-rendered padding-3">
                 <?php include('snippets/buttons-icons.php') ?>
