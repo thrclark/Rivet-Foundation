@@ -13,7 +13,7 @@ $page_title = '';
 .nowrap {
 	white-space: nowrap
 }
-.rbt-footer {
+.rfd-footer {
 	background-color: #fafafa;
 	border-top: 1px solid #eeeeee;
 	width: 100%;

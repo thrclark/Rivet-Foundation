@@ -1,0 +1,54 @@
+/// Copyright 2018 Indiana University Research and Technology Corporation ///
+
+.rfd-footer {
+  @extend .rfd-ts-12;
+  //@extend .fixed-bottom;
+  background-color: $color-subtle-gray;
+  border-top: 1px solid $color-black--100;
+  width: 100%;
+  padding: 0.5rem 1.5rem;
+  .grid-x {
+    min-height: 42px;
+    img {
+      width: 24px;
+      height: auto;
+      display: inline;
+      margin-right: 1rem;
+    }
+    p {
+      display: inline;
+    }
+    a {
+      color: #990000;
+      text-decoration: none;
+    }
+    .rfd-footer-aux-links {
+      list-style: none;
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-left: auto;
+      padding: 0;
+      .rfd-footer-aux-item {
+        display: inline-block;
+        position: relative;
+        @extend .rfd-ts-12;
+        &:after {
+          content: "|";
+          color: #999999;
+          margin: 0 0.5rem;
+          right: -15px;
+          position: absolute;
+          top: 10px;
+        }
+        &:last-child:after {
+          content:none;
+          margin: 0 0.5rem;
+        }
+
+      }
+    }
+
+  }
+
+}
+

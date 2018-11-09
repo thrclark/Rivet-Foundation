@@ -5564,6 +5564,68 @@ tbody tr:nth-child(even) {
     .rfd-table-grid th:first-child, .rfd-table-grid td:first-child {
       border-left: 1px solid #dddddd; }
 
+.ts-12,
+.rfd-ts-12,
+.rfd-footer,
+.rfd-footer .grid-x .rfd-footer-aux-links .rfd-footer-aux-item,
+.rfd-ts-xxs {
+  font-size: 0.75rem !important; }
+
+.ts-14,
+.rfd-ts-14,
+.rfd-ts-xs {
+  font-size: 0.875rem !important; }
+
+.ts-16,
+.rfd-ts-16,
+.rfd-ts-base {
+  font-size: 1rem !important; }
+
+.ts-18,
+.rfd-ts-18 {
+  font-size: 1.125rem !important; }
+
+.ts-20,
+.rfd-ts-20,
+.rfd-ts-sm {
+  font-size: 1.25rem !important; }
+
+.ts-23,
+.rfd-ts-23 {
+  font-size: 1.4375rem !important; }
+
+.ts-26,
+.rfd-ts-26,
+.rfd-ts-md {
+  font-size: 1.625rem !important; }
+
+.ts-29,
+.rfd-ts-29 {
+  font-size: 1.8125rem !important; }
+
+.ts-32,
+.rfd-ts-32,
+.rfd-ts-lg {
+  font-size: 2rem !important; }
+
+.ts-36,
+.rfd-ts-36 {
+  font-size: 2.25rem !important; }
+
+.ts-41,
+.rfd-ts-41,
+.rfd-ts-xl {
+  font-size: 2.5625rem !important; }
+
+.ts-46,
+.rfd-ts-46 {
+  font-size: 2.875rem !important; }
+
+.ts-52,
+.rfd-ts-52,
+.rfd-ts-xxl {
+  font-size: 3.25rem !important; }
+
 strong a {
   text-decoration: none; }
   strong a:hover {
@@ -5657,6 +5719,43 @@ select {
   background-size: 1rem 1rem;
   background-repeat: no-repeat;
   padding-left: 0.5rem; }
+
+.rfd-footer {
+  background-color: #f7f7f7;
+  border-top: 1px solid #eeeeee;
+  width: 100%;
+  padding: 0.5rem 1.5rem; }
+  .rfd-footer .grid-x {
+    min-height: 42px; }
+    .rfd-footer .grid-x img {
+      width: 24px;
+      height: auto;
+      display: inline;
+      margin-right: 1rem; }
+    .rfd-footer .grid-x p {
+      display: inline; }
+    .rfd-footer .grid-x a {
+      color: #990000;
+      text-decoration: none; }
+    .rfd-footer .grid-x .rfd-footer-aux-links {
+      list-style: none;
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-left: auto;
+      padding: 0; }
+      .rfd-footer .grid-x .rfd-footer-aux-links .rfd-footer-aux-item {
+        display: inline-block;
+        position: relative; }
+        .rfd-footer .grid-x .rfd-footer-aux-links .rfd-footer-aux-item:after {
+          content: "|";
+          color: #999999;
+          margin: 0 0.5rem;
+          right: -15px;
+          position: absolute;
+          top: 10px; }
+        .rfd-footer .grid-x .rfd-footer-aux-links .rfd-footer-aux-item:last-child:after {
+          content: none;
+          margin: 0 0.5rem; }
 
 ul li, ol li {
   margin-top: .5rem; }

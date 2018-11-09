@@ -249,7 +249,7 @@
                             </div>
                         </ul>
                     </li>-->
-                        <li class="nav-item"> <a class="nav-link " href="#" target="_blank">Download</a> </li>
+                        <li class="nav-item"> <a class="nav-link " href="https://github.com/thrclark/Rivet-Foundation" target="_blank">Download</a> </li>
                     </ul>
                 </nav>
             </div>
