@@ -5,7 +5,7 @@
             <div class="cell auto">
                 <div class="grid-x align-middle grid-margin-x">
                     <div class="cell shrink rfd-brand-image-container"> <img src="../img/trident-large.png" alt="trident" class="rfd-brand-image"> </div>
-                    <div class="cell auto rfd-brand-title-container"> <a href="#" class="rfd-brand-title"><strong>Rivet-Foundation</strong></a> </div>
+                    <div class="cell auto rfd-brand-title-container"> <a href="index.php" class="rfd-brand-title"><strong>Rivet-Foundation</strong></a> </div>
                 </div>
             </div>
             <div class="cell auto">
