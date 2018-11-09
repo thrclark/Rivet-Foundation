@@ -13,13 +13,13 @@
 <script src="../js/clipboard.min.js"></script>
 <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
 <script>
-    $(".rbt-drawer-button").click(function() {
-        $(".rbt-drawer,.rbt-drawer-button").toggleClass("open");
+    $(".rfd-drawer-button").click(function() {
+        $(".rbt-drawer,.rfd-drawer-button").toggleClass("open");
         $("#mainContent").toggleClass("faded");
     });
     $("#mainContent").click(function() {
         $("#mainContent").removeClass("faded");
-        $(".rbt-drawer,.rbt-drawer-button").removeClass("open");
+        $(".rbt-drawer,.rfd-drawer-button").removeClass("open");
     });
 </script>
 <script>

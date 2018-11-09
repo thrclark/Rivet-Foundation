@@ -1,11 +1,11 @@
-<a class="rbt-skip-link" href="#main-content">Skip to content</a>
-<header class="rbt-app-header">
+<a class="rfd-skip-link" href="#main-content">Skip to content</a>
+<header class="rfd-app-header">
     <div class="grid-container fluid">
         <div class="grid-x grid-padding-x align-middle">
             <div class="cell shrink">
                 <div class="grid-x grid-padding-x align-middle ">
-                    <div class="cell shrink rbt-brand-image-container"> <img src="../img/trident-large.png" alt="trident" class="rbt-brand-image"/> </div>
-                    <div class="cell auto rbt-brand-title-container"> <a href="#" class="rbt-brand-title">Application Title </a> </div>
+                    <div class="cell shrink rfd-brand-image-container"> <img src="../img/trident-large.png" alt="trident" class="rfd-brand-image"/> </div>
+                    <div class="cell auto rfd-brand-title-container"> <a href="#" class="rfd-brand-title">Application Title </a> </div>
                 </div>
             </div>
             <div class="cell auto d-none d-lg-block text-right">

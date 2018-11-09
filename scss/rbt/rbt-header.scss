@@ -6,7 +6,7 @@
 
 
 
-.rbt-skip-link {
+.rfd-skip-link {
   position: fixed;
   top: -6rem;
   padding: 0.5rem;
@@ -17,7 +17,7 @@
   }
 }
 
-.rbt-app-header {
+.rfd-app-header {
   border-bottom: 1px solid $color-black--100;
   background-color: $color-black--50;
   position: relative;
@@ -27,8 +27,37 @@
   height: 48px;
   .menu {
     position: inherit;
+
+    .dropdown-pane {
+      padding: 0px;
+      li {
+        display: block;
+        margin-right: 0px;
+        a {
+          &:hover {
+            background: $blue;
+            color: $white;
+          }
+        }
+      }
+        
+    }
+
     button {
       padding: 0.7rem 1rem;
+      padding-right: 35px;
+      position: relative;
+      .rbt-icon-chevron-down {
+        position: absolute;
+        right: 10px;
+        top: 11px;
+      }
+      &.hover {
+        .rbt-icon-chevron-down:before {
+          content: "\e90f";
+        }
+      }
+
     }
     .rfd-megamenu {
       &.is-open {
@@ -61,36 +90,21 @@
     text-decoration: none;
     color: $body-font-color;
   }
-  &.rbt-app-header--light {
+  &.rfd-app-header--light {
     background: $color-white;
   }
 
-  .rbt-nav-divider-l {
-    padding-left: 2rem;
-    position: relative;
-    padding-left: 12px;
-
-    &:before {
-      content: '';
-      background: $color-black--500;
-      position: absolute;
-      width: 1px;
-      height: 32px;
-      left: -4px;
-      top: 8px;
-    }
-  }
-  .rbt-brand-image-container {
+  .rfd-brand-image-container {
     padding-left: 0rem;
     padding-right: 0rem;
 
-    .rbt-brand-image {
+    .rfd-brand-image {
       max-height: 48px;
       //width: auto;
     }
   }
-  .rbt-brand-title-container {
-    .rbt-brand-title {
+  .rfd-brand-title-container {
+    .rfd-brand-title {
       font-weight: normal;
       margin-bottom: 0rem;
       //color: $body-color;
@@ -151,9 +165,10 @@
     }
   }
 
-  .rbt-drawer-button {
+  .rfd-drawer-button {
     height: 48px;
     width: 48px;
+    padding-left: 13px;
     border-left: 1px solid $color-black--200;
     &.open {
       background: $color-black--100;
@@ -196,19 +211,19 @@
 }
 
 @media screen and (min-width: 40em) {
-  .rbt-app-header {
+  .rfd-app-header {
     height: 70px;
-    .rbt-brand-image-container {
-      .rbt-brand-image {
+    .rfd-brand-image-container {
+      .rfd-brand-image {
         max-height: 70px;
       }
     }
-    .rbt-brand-title-container {
-      .rbt-brand-title {
+    .rfd-brand-title-container {
+      .rfd-brand-title {
         font-size: 1.4375rem;
       }
     }
-    .rbt-drawer-button {
+    .rfd-drawer-button {
       height: 70px;
       width: 70px;
       .btn {

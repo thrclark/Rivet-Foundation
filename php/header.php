@@ -13,15 +13,15 @@ $page_title = '';
 <style></style>
 </head>
 <body>
-<header class="rbt-app-header">
+<header class="rfd-app-header">
     <div class="grid-container fluid">
         <div class="grid-x "> 
             
             <!--App Logo Image-->
-            <div class="cell auto rbt-brand-image-container"> <img src="../img/trident-large.png" alt="trident" class="rbt-brand-image"/> </div>
+            <div class="cell auto rfd-brand-image-container"> <img src="../img/trident-large.png" alt="trident" class="rfd-brand-image"/> </div>
             
             <!--App Title-->
-            <div class="cell large-auto rbt-brand-title-container"> <a href="#" class="rbt-brand-title">Application Title </a> </div>
+            <div class="cell large-auto rfd-brand-title-container"> <a href="#" class="rfd-brand-title">Application Title </a> </div>
             
             <!--App Navigation-->
             <div class="cell d-none d-lg-block rbt-site-nav">
@@ -53,7 +53,7 @@ $page_title = '';
             </div>
             
             <!-- App Mobile Menu-->
-            <div class="cell auto d-lg-none rbt-drawer-button"> <span class="rbt-icon-menu" aria-hidden="true"><span class="sr-only">Menu</span></span> </div>
+            <div class="cell auto d-lg-none rfd-drawer-button"> <span class="rbt-icon-menu" aria-hidden="true"><span class="sr-only">Menu</span></span> </div>
         </div>
     </div>
 </header>

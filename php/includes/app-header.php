@@ -1,11 +1,11 @@
- <a class="rbt-skip-link" href="#mainContent">Skip to content</a>
-<header class="rbt-app-header rbt-app-header--light fixed-top" style="display:">
+ <a class="rfd-skip-link" href="#mainContent">Skip to content</a>
+<header class="rfd-app-header">
     <div class="grid-container fluid full">
         <div class="grid-x align-middle grid-margin-x">
             <div class="cell auto">
                 <div class="grid-x align-middle grid-margin-x">
-                    <div class="cell shrink rbt-brand-image-container"> <img src="../img/trident-large.png" alt="trident" class="rbt-brand-image"> </div>
-                    <div class="cell auto rbt-brand-title-container"> <a href="#" class="rbt-brand-title"><strong>Rivet-Foundation</strong></a> </div>
+                    <div class="cell shrink rfd-brand-image-container"> <img src="../img/trident-large.png" alt="trident" class="rfd-brand-image"> </div>
+                    <div class="cell auto rfd-brand-title-container"> <a href="#" class="rfd-brand-title"><strong>Rivet-Foundation</strong></a> </div>
                 </div>
             </div>
             <div class="cell auto">
@@ -13,7 +13,7 @@
                     <ul class="menu  margin-right-3">
                         <li class="nav-item"> <a class="nav-link  <?php if ($componentName == 'About') { echo 'active'; } ?>" href="index.php">About</a> </li>
                         <li>
-                            <button type="button" data-toggle="example-dropdown">Library</button>
+                            <button type="button" data-toggle="example-dropdown">Library  <span class="rbt-icon-chevron-down"></span></button>
                             <div class="dropdown-pane rfd-megamenu" id="example-dropdown" data-dropdown data-auto-focus="true">
                                 <div class="grid-container">
                                     <ul class="grid-x">
@@ -253,7 +253,7 @@
                     </ul>
                 </nav>
             </div>
-            <div class="cell auto d-lg-none rbt-drawer-button" style="display:none">
+            <div class="cell auto d-lg-none rfd-drawer-button" style="display:none">
                 <button class="btn btn-link"><span class="sr-only">Menu</span><span class="rbt-icon-menu" aria-hidden="true"></span> </button>
             </div>
         </div>
